@@ -1,0 +1,38 @@
+﻿ /* 
+Description: 
+Author: Viktor Ivanov
+*/
+						
+
+.clear:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.left {
+	margin-top: 20px;
+	margin-left: 10px;
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+
+.task {
+    width: 600px;
+    margin: 5px auto;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+input[type="text"] {
+    width: 80px;
+}
+
+input[type="text"].small  {
+    width: 50px;
+}

@@ -1,0 +1,116 @@
+﻿ /* 
+Description: 
+Author: Viktor Ivanov
+*/
+
+body {
+	background: #000;
+	color: white;
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+#stage {
+	width: 800px;
+	height:600px;
+	margin: auto;
+}
+
+.game-bar {
+	font-size: 15px;
+}
+
+#game-level {
+	color: #ffff21;
+}
+
+#score-bar {
+	color: #1fec1f;
+}
+			
+#trash-bin {
+	position: relative;
+	width: 150px;
+	height: 250px;
+	border: 1px solid black;
+}
+
+#trash {
+	position: relative;
+	margin: 50px 0;
+	width: 128px;
+	height: 128px;
+}
+
+#cat-progress {
+	width: 0;
+	height: 5px;
+	background: red;
+}
+
+.wrapp-progres-bar {
+	width: 100px;
+	border: 1px solid red;
+}
+
+.opened {
+	background: url(../images/trash-open.png);
+}
+
+.closed {
+	background: url(../images/trash-close.png);
+}
+
+#game-over {
+	font-size: 16px;
+	color: red;
+}
+
+#cats-place {
+	position: relative;
+	width: 600px;
+	height: 500px;
+	border: 1px solid black;
+}
+	
+.cat {
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	background: url(../images/black_cat.png);
+	cursor:pointer;
+}
+	
+.clear:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.left {
+	margin-top: 20px;
+	margin-left: 10px;
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+
+.task {
+    width: 800px;
+    margin: 5px auto;
+    padding: 5px;
+    border-bottom: 1px solid black;
+	text-align: right;
+}
+
+input[type="text"] {
+    width: 80px;
+}
+
+input[type="text"].small  {
+    width: 50px;
+}

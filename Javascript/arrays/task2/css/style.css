@@ -1,0 +1,17 @@
+﻿ /* 
+Description: 
+Author: Viktor Ivanov
+*/
+
+.task
+{
+    width: 600px;
+    margin: 5px auto;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+input[type="text"]
+{
+    width: 400px;
+}
