@@ -1,0 +1,13 @@
+body { margin:0; padding: 0; }
+img { border: none; }
+table { margin: 50px auto; width: 600px; border: none;  background-color: #fff; color: black; border-collapse: collapse; }
+th, td { width: 150px;  height: 30px;  font-size: 12px; font-family: sans-serif; text-align: left; font-weight: normal; padding-left: 5px; }
+thead tr th { border: 1px solid #3a8f08;  border-right-style: ridge; border-right-width: 2px; border-right-color: #6cc71f; }
+/* border-right-style: ridge; не работи нормално под mozilla и IE 9 въпреки че пише че се поддържа. */
+thead tr { background: url("../img/back.jpg") repeat-x; color: white; }
+tbody tr:nth-child(2n+2) { background: #ececd8; }
+tbody>tr>td:nth-child(1n+0) { border-top: none; }
+tbody td { border: 1px solid #c7c5ae; }
+span.germany { background: url("../img/de.jpg") no-repeat; color: inherit; padding-left: 22px; }
+span.mexico { background: url("../img/mx.jpg") no-repeat; color: inherit; padding-left: 22px; }
+span.uk { background: url("../img/uk.jpg") no-repeat; color: inherit; padding-left: 22px; }

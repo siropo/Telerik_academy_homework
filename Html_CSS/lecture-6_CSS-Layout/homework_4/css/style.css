@@ -1,0 +1,211 @@
+/* reset  --------------- */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li,
+a, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+}
+
+/* end reset  --------------- */
+
+body { 
+	font-family: sans-serif; 
+	background-color: #F1F1F1; 
+	font-size: 12px;
+	color: #000;
+}
+
+#wrapper { 
+	margin: 5px auto;
+	position: relative;
+	width: 920px;
+	padding: 10px 5px 0 5px;
+	background-color: #F1F1F1;
+	overflow: hidden;
+	border: 1px solid #848484;
+} 
+
+#left_block, #center_block, #right_block {
+	position: relative;
+	margin: auto;
+	float: left;
+	/* Firefox */
+	-moz-box-sizing: border-box;
+	/* WebKit */
+	-webkit-box-sizing: border-box;
+	/* Opera 9.5+, Google Chrome */
+	box-sizing: border-box;
+}
+
+#left_block, #right_block {
+	width: 160px;
+}
+
+#center_block {
+	width: 600px;
+	padding: 5px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	border: 1px solid #848484;
+}
+
+a.link_global {
+	color: #900C0A;
+}
+
+h2 {
+	color: #000;
+}
+
+h4 {
+	color: #900C0A;
+	font-weight: bold;
+}
+
+/* Left menu ===============================*/
+
+h4.home {
+	position: relative;
+	top: 0;
+	left: 0;
+	padding: 1px 0 15px 20px;
+	background: transparent url(../img/home_icon.gif) no-repeat 0 0;
+	color: #000;
+}
+
+#left_block nav {
+	margin-bottom: 15px;
+}
+
+.menu_left {
+	list-style-type: none;
+}
+
+.menu_left li {
+	margin: 1px 0;
+}
+
+a.menu {
+	color: #171717;
+	text-decoration: none;
+}
+
+/* Left menu end ===============================*/
+
+/* Center section style ===============================*/
+
+#header_section h2 {
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* Center and right_block h4 style */
+#center_block header h4,  #right_block section h4 {
+	padding: 2px 0 2px 2px;
+	background-color: #808080;
+	color: #fff;
+	font-size: 12px;
+}
+/* ====================== */
+
+.next_previous {
+	position: relative;
+	overflow: hidden;
+}
+
+.n_p_buttons li {
+	list-style-type: none;
+	float: left;
+}
+
+.n_p_buttons a{
+	color: #000;
+}
+
+.nav_btn {
+	position: relative;
+	width: 120px;
+	float: left;
+	margin: 10px 0 3px 3px;
+	padding: 3px 0;
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.nav_btn span.arrow_right {
+	position: absolute;
+	right: 0;
+}
+
+.nav_btn span.arrow_left {
+	position: absolute;
+	left: 0;
+}
+
+article {
+	position: relative;
+	overflow: hidden;
+}
+
+article p {
+	padding: 10px 0;
+}
+
+.css_img {
+	margin: 10px;
+	float: left;
+}
+
+hr	{
+	border: none;
+	background-color: #000;
+	height: 1px;
+	margin: 3px 0 6px 0;
+}
+
+hr.top {
+	margin: 3px 0 -4px 0;
+}
+
+/* Center section style ===============================*/
+
+/* Right section style ===============================*/
+
+#right_block section {
+	margin: 0 0 1px 5px;
+	padding: 4px 0 6px 0;
+	background-color: #fff;
+	border: 1px solid #848484;
+	text-align: center;
+}
+
+#right_block section h4 {
+	margin: -4px 0 4px 0;
+}
+
+input[type="text"] {
+	width: 100px;
+}
+
+input[type="submit"] {
+	padding: 2px 4px;
+}
+
+/* Right section style end ===============================*/
+
+footer {
+	position: relative;
+	width: 920px;
+	margin: 5px auto;
+	padding: 5px;
+	text-align: right;
+	font-size: 10px;
+}

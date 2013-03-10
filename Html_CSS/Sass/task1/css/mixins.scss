@@ -1,0 +1,38 @@
+@mixin linear-gradient($from, $to,$repeat:none) {
+    background-image: -webkit-linear-gradient(top, $from, $to);
+    background-image: -moz-linear-gradient(top, $from, $to);
+    background-image: -ms-linear-gradient(top, $from, $to);
+    background-image: -o-linear-gradient(top, $from, $to);
+    background-image: linear-gradient(to bottom, $from, $to);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$from}', endColorstr='#{$to}',GradientType=0 );
+	background-repeat:$repeat;
+}
+
+@mixin clear {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+@mixin input-fields {
+	background-color: #b35ef3;
+	border-radius: 6px;
+	border: 1px solid #603382;
+}
+
+@mixin button-style {
+	padding: 3px 10px;
+	background-color: #b35ef3;
+	border-top: 1px solid #c0afce;
+	border-left: 1px solid #c0afce;
+	border-bottom: 1px solid #3c2051;
+	border-right: 1px solid #3c2051;
+	border-radius: 5px;
+	color: $default-link-color;
+}
+
+@mixin rounded-corners {
+	border-radius: 6px;
+	border: 1px solid #603382;
+}

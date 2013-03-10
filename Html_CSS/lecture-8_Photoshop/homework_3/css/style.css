@@ -1,0 +1,123 @@
+/* reset  --------------- */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, li,
+a, em, img, table, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+}
+
+/* reset  --------------- */
+
+body { 
+	font-family: sans-serif; 
+	background-color: #F1F1F1; 
+	font-size: 12px;
+	color: #000;
+}
+
+#wrapper {
+	position: relative;
+	margin: auto;
+	width: 960px;
+}
+
+header {
+	height: 100%; /* IE6 - 7 fix */
+	margin: 10px 0 50px 0;
+}
+
+header:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+header h2 {
+	display: block;
+	background: url('../img/photoshop.png') no-repeat top left;
+	background-position: 0 10px;
+	margin: 20px 0 0 35px;
+	padding: 25px 0 15px 55px;
+	float: left;
+	font-size: 18px;
+}
+
+section {
+	margin: 20px 0 0 35px;
+}
+
+#menu {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+#menu:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+#menu li {
+	padding: 1px 0 4px 0;
+	list-style-type: none;
+	float: left;
+	background: #ededed url('../img/menu_background.png') repeat-x;
+}
+
+#menu li.left, #menu li.right  {
+	width: 7px;
+	height: 50px;
+	border-left: none;
+	background: url('../img/menu_left_part.png') no-repeat top left;
+}
+
+#menu li.right {	
+	background: url('../img/menu_right_part.png') no-repeat top right;
+}
+
+#menu li a {
+	padding: 18px;
+	display: inline-block;
+	border-right: 1px solid #CFCFCF;
+	border-left: 1px solid #FFF;
+	color: #A91A32;
+	font-weight: bold;
+	text-transform:uppercase;
+	text-decoration: none;
+}
+
+#menu li a.remove_border_left {
+	padding-left: 11px;
+	border-left: 0;
+}
+
+#menu li a.remove_border_right {
+	padding-right: 11px;
+	border-right: 0;
+}
+
+footer {
+	position: relative;
+	padding: 10px 10px 10px 0;
+	text-align: right;
+	font-size: 10px;
+	color: #000;
+}
+
+
+
+
+
+
+

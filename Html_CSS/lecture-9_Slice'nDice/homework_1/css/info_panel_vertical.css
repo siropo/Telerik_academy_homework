@@ -1,0 +1,167 @@
+h4.panel {
+	display: inline-block;
+	margin: 0 0 20px 0;
+	padding: 3px 15px;
+	background-color: #222;
+	color: #fff;
+	font-size: 10px;
+}
+
+.info_panel_hold {
+	width: 200px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.info_panel_hold:after, .info_panel:after, .info:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+.info_panel {
+	position: relative;
+	float: right;
+	margin-right: 1px;
+	padding: 0 2px;
+	text-align: right;
+	font-weight: bold;
+	color: #000;
+}
+
+.info {
+	margin-top: -15px;
+	position: relative;
+	float: right;
+	padding: 0 2px;
+	text-align: right;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000;
+}
+
+.info ul li {
+	list-style-type: none;
+	padding: 2px;
+}
+
+.info ul li.sub_info {
+	padding: 0 10px;
+}
+
+.info span {
+	display: inline-block;
+	background-color: #222;
+	padding: 1px 5px;
+}
+
+span.green_txt {
+	color: #4eff00;
+}
+
+span.orange_txt {
+	color: #ffc11a;
+}
+
+span.red_txt {
+	color: #ff4b2d;
+}
+
+/* end text ================================= */
+
+#end {
+	margin-left: 10px;
+	font-size: 10px;
+	color: #fff;
+	float: left;
+	opacity: 1;
+
+animation-name: end;
+animation-duration: 1s;
+animation-timing-function: linear;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+
+-moz-animation-name: end;
+-moz-animation-duration: 1s;
+-moz-animation-timing-function: linear;
+-moz-animation-delay: 0s;
+-moz-animation-iteration-count: infinite;
+
+-webkit-animation-name: end;
+-webkit-animation-duration: 1s;
+-webkit-animation-delay: 0s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+
+-ms-animation-name: end;
+-ms-animation-duration: 1s;
+-ms-animation-timing-function: linear;
+-ms-animation-delay: 0s;
+-ms-animation-iteration-count: infinite;
+
+-o-animation-name: end;
+-o-animation-duration: 1s;
+-o-animation-delay: 0s;
+-o-animation-timing-function: linear;
+-o-animation-iteration-count: infinite;
+
+}
+@keyframes end
+{
+0% {
+	   opacity: 1;
+}
+
+100% {
+	   opacity: 0;
+}
+}
+
+@-webkit-keyframes end
+{
+0% {
+	   opacity: 1;
+}
+
+100% {
+	   opacity: 0;
+}
+}
+
+@-moz-keyframes end
+{
+0% {
+	   opacity: 1;
+}
+
+100% {
+	   opacity: 0;
+}
+}
+
+@-ms-keyframes end
+{
+0% {
+	   opacity: 1;
+}
+
+100% {
+	   opacity: 0;
+}
+}
+
+@-o-keyframes end
+{
+0% {
+	   opacity: 1;
+}
+
+100% {
+	   opacity: 0;
+}
+}
+
+/* End text end ================================= */

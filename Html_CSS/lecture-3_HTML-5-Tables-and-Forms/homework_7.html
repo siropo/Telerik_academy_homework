@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Telerik lecture 2/ homework 7</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Viktor Ivanov" />
+		<link rel="stylesheet" type="text/css" href="css/style_homework_7.css" />
+		<script src="script/homework_7.js"></script>
+	</head>
+	<body>
+		<form name="myform" id="myform" action="#" method="post">
+			<table cellspacing="0" cellpadding="0">
+				<thead>
+					<tr>
+						<th colspan="6" class="first">Drag a column header and drop it here to group by that column</th>
+					</tr>
+					<tr>
+						<th>ProductID</th>
+						<th>Product name</th>
+						<th>Unit price</th>
+						<th>Quantity per unit</th>
+						<th>Units in stock</th>
+						<th>Discontinued</th>
+					</tr>
+				</thead>
+				<tfoot> 
+					<tr>
+						<td colspan="6">
+							<div class="footer"> <input type="image" src="img/5.png" width="22" height="22" alt="btn_left" class="flip-horizontal" /> <input type="image" src="img/4.png" width="22" height="22" alt="btn_left" class="flip-horizontal" />
+							 <a href="#" title="1">1</a> <a href="#" title="2">2</a> <a href="#" title="3">3</a> <a href="#" title="4">4</a> <a href="#" title="4">5</a> <a href="#" title="4">6</a> <a href="#" title="4">7</a> <a href="#" title="4">8</a> <a href="#" title="4">9</a> <a href="#" title="4">10</a> ...
+							 <input type="image" src="img/2.png" width="22" height="22" alt="btn_right" /> <input type="image" src="img/3.png" width="22" height="22" alt="btn_right" />
+							 <span class="select">Page size:</span>
+							 <select name="page_size" id="page_size">
+								<option value="5">5</option>
+								<option value="10" selected="selected">10</option>
+								<option value="20">20</option>
+								<option value="50">50</option>
+							 </select>
+							 
+							 <span class="right">335104 items in 335511 pages</span>
+							 </div>
+						</td>
+					</tr>
+				</tfoot>
+				<tbody>
+					<tr>
+						<td><input type="text" name="id" value="" maxlength="16" class="id" /></td>
+						<td><input type="text" name="name" value="" maxlength="16" class="name" /></td>
+						<td><input type="text" name="price" value="" maxlength="16" class="price-stock" /> <input type="image" src="img/1.png" width="22" height="22" alt="btn" /></td>
+						<td><input type="text" name="quantity" value="" maxlength="16" class="quantity" /></td>
+						<td><input type="text" name="stock" value="" maxlength="16" class="price-stock" /> <input type="image" src="img/1.png" width="22" height="22" alt="btn" /></td>
+						<td><input type="checkbox" name="check_ctr" value="yes" onClick="Check(document.myform.check_list)"> <input type="image" src="img/1.png" width="22" height="22" alt="btn" /></td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Pesho</td>
+						<td>Yordanov</td>
+						<td>123456</td>
+						<td>2</td>
+						<td><input type="checkbox" name="check_list" value="check _1"></td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Pesho</td>
+						<td>Yordanov</td>
+						<td>123456</td>
+						<td>2</td>
+						<td><input type="checkbox" name="check_list" value="check_2"></td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Pesho</td>
+						<td>Yordanov</td>
+						<td>123456</td>
+						<td>2</td>
+						<td><input type="checkbox" name="check_list" value="check_3"></td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>Pesho</td>
+						<td>Yordanov</td>
+						<td>123456</td>
+						<td>2</td>
+						<td><input type="checkbox" name="check_list" value="check_4"></td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>Pesho</td>
+						<td>Yordanov</td>
+						<td>123456</td>
+						<td>2</td>
+						<td><input type="checkbox" name="check_list" value="check_5"></td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>Pesho</td>
+						<td>Yordanov</td>
+						<td>123456</td>
+						<td>2</td>
+						<td><input type="checkbox" name="check_list" value="check_6" checked="checked"></td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>Pesho</td>
+						<td>Yordanov</td>
+						<td>123456</td>
+						<td>2</td>
+						<td><input type="checkbox" name="check_list" value="check_7"></td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>Pesho</td>
+						<td>Yordanov</td>
+						<td>123456</td>
+						<td>2</td>
+						<td><input type="checkbox" name="check_list" value="check_8"></td>
+					</tr>
+					<tr>
+						<td>9</td>
+						<td>Pesho</td>
+						<td>Yordanov</td>
+						<td>123456</td>
+						<td>2</td>
+						<td><input type="checkbox" name="check_list" value="check_9"></td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>Pesho</td>
+						<td>Yordanov</td>
+						<td>123456</td>
+						<td>2</td>
+						<td><input type="checkbox" name="check_list" value="check_10"></td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</body>
+</html>

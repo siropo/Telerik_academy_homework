@@ -1,0 +1,258 @@
+/* reset  --------------- */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, 
+p, pre, a, em, small, strike, strong,ol, ul, li,
+article, aside, footer, header, hgroup, menu, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	outline:0;
+	vertical-align:baseline;
+	background:transparent;
+	height: auto;
+}
+
+img {
+	border: none;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* end reset  --------------- */
+
+/* main  --------------- */
+
+body { 
+	font: normal normal 10px Verdana, sans-serif;
+	background-color: #F1F1F1; 
+	color: #4b3e82;
+	line-height: 1;
+}
+
+	#wrapper_main {
+		margin: auto;
+		width: 778px;
+	}
+
+	#header {
+		height: 47px;
+		background-color: #fff;
+	}
+		
+		img.left {
+			float: left;
+		}
+		
+		img.right {
+			float: right;
+		}
+
+	#wrapper_content {
+		height: 100%;  /* fix float IE 6,7 */
+		background: url('../img/content_back.jpg') repeat-y top left;
+		background-position: 0 0;
+	}
+
+		#wrapper_content #right_column, #wrapper_content #content_page,  #wrapper_content #left_column  {
+			float: left;
+		}
+
+	.clear:after {
+		content: "";
+		display: block;
+		height: 0;
+		clear: both;
+		zoom: 1;
+	}
+
+	article img, #right_column img {
+		float: left;
+		border: 1px solid #000;
+	}
+	
+	a:hover {
+		text-decoration: underline;
+	}
+
+/* end main  --------------- */
+
+/* left column ------------------------------------ */
+
+#left_column {
+	width: 120px;
+	padding-bottom: 20px;
+}
+
+	#left_column h5 {
+		padding: 15px 0 3px 10px;
+		font: bold 12px verdana;
+		color: #424284;
+	}
+	
+		.main_menu li {
+			padding: 3px 0 0 15px;
+			background: url('../img/icon/bull1.png')  no-repeat 9px 7px;
+		}
+		
+			.main_menu li a {
+				color: #006699;
+			}
+		
+/* end left column ------------------------------------ */
+
+/* center content page ------------------------------------ */
+
+#content_page {
+	width: 444px;
+}
+
+	.category {
+		height: 100%;  /* fix float IE 6,7 */
+		background-color: #E6DEF5;
+	}
+	
+		#content_page nav, #content_page h5, .category_menu li {
+			float: left;
+		}
+		
+			#content_page h5 {
+				margin-left: 5px;
+				padding: 5px 0 5px 25px;
+				font: bold 11px Verdana;
+				color: #6d64a3;
+				background: url('../img/icon/star.png')  no-repeat 3px 6px;
+			}
+			
+				.category_menu li {
+					padding: 7px 0 7px 0;
+				}
+				
+					.category_menu li a {
+						padding: 0 5px;
+						display: inline-block;
+						border-right: 1px solid #0000cc;
+						color: #0000cc;
+					}
+					
+					.category_menu .last a {
+						border-right: 0;
+					}
+	
+	article {
+		margin: 5px 3px;
+		padding: 0 7px 20px 7px;
+	}
+		
+		article div.clear {
+			height: 100%;
+		}
+		
+		article header  {
+			float: right;
+		}
+		
+		article header {
+			width: 270px;
+			padding: 10px;
+		}
+	
+			article header h1 {
+				padding-bottom: 5px;
+				color: #c41e89;
+				font: normal 16px Verdana;
+			}
+			
+			article header h2 {
+				color: #4b3e82;
+				font: bold 10px Verdana;
+			}
+
+		article p {
+			padding: 10px 0 15px 0;
+		}
+		
+		article a {
+			padding: 5px 0 0 8px;
+			color: #0000cc;
+			background: url('../img/icon/bull2.png')  no-repeat 0 11px;
+		}
+
+/* end center content page ------------------------------------ */
+
+/* right column ------------------------------------ */
+
+	#right_column {
+		width: 192px;
+		margin: 0 0 10px 0;
+		padding: 10px 10px 20px 10px;
+		border-top: 2px solid #E6DEF5;
+	}
+	
+		#right_column div.clear {
+			height: 100%;
+			margin-bottom: 10px;
+		}
+		
+		#right_column p {
+			width: 116px;
+			padding: 0 4px 0 6px;
+			float: left;
+		}
+		
+		#right_column nav ul {
+			margin-right: 15px;
+			float: left;
+		}
+		
+			#right_column nav ul li {
+				padding: 3px 0 0 8px;
+				color: #0000cc;
+				background: url('../img/icon/bull2.png')  no-repeat 0 8px;
+			}
+	
+/* end right column ------------------------------------ */
+
+/* footer ------------------------------------ */
+
+.section_end_left {
+	width: 120px;
+	line-height: 2px;
+	background-color: #F2F3F7;
+	float:left;
+}
+
+.section_end_content {
+	width: 658px;
+	line-height: 2px;
+	background-color: #E6DEF5;
+	float:left;
+}
+
+#footer {
+	padding: 10px 0;
+	background-color: #59518c;
+	color: #fff;
+	text-align: center;
+	font-size: 10px;
+	height: 100%;
+}
+
+.footer_info {
+	margin-right: 10px;
+	float: right;
+}
+/* end footer ------------------------------------ */
+
+
+
+
+
+

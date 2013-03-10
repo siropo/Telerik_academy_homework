@@ -1,0 +1,162 @@
+/* reset  --------------- */
+html, body, div, span, h1, h2, h3, h4, h5, h6, ul, ol, li,
+a, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+}
+
+/* end reset  --------------- */
+
+/* Global options  --------------- */
+
+body {
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+#wrapper { 
+	position: relative;
+	margin: 5px auto;
+	width: 800px;
+	padding-bottom: 30px;
+	background-color: #fff;
+	font-family: sans-serif;
+	border: 1px solid #000;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+} 
+
+
+/* end  Global options  --------------- */
+
+/* nav options  --------------- */
+
+nav {
+	padding: 5px;
+	background-color: #000;
+}
+
+nav:after, article:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;	
+}
+
+ul.menu li {
+	margin: 3px 5px;
+	padding: 5px 10px;
+	list-style-type: none; 
+	float: left;
+	line-height: 18px;
+	background-color: #CCCBCC;
+	text-align: center;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+}
+
+ul.menu li a {
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+}
+	
+/* end  nav options  --------------- */
+
+/* Section laptops options  --------------- */
+
+section {
+	position: relative;
+	margin-left: 10px;
+}
+
+h2 {
+	line-height: 50px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.img_cont {
+	padding: 20px;
+	text-align: center;
+	background-color: #CCCBCC;
+	border: 1px solid #898989;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+span.icon {
+	margin: 5px;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+}
+
+	.facebook {
+		background: url('../img/icons/facebook.png') no-repeat;
+	}
+	
+	.twitter {
+		background: url('../img/icons/twitter.png') no-repeat;
+	}
+	
+	.youtube {
+		background: url('../img/icons/youtube.png') no-repeat;
+	}
+
+hgroup h1 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+hgroup h2 {
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.img_cont, .info {
+	float: left;
+}
+
+.info {
+	width: 500px;
+	padding-left: 30px;
+	text-align: left;
+}
+
+dl, dt {
+	margin-bottom: 8px;
+}
+
+#bigImage { 
+	position: absolute;
+	margin: -50px 0 0 -280px;
+	background: #e4e4e4; 
+	padding: 5px; 
+	border: 1px solid black; 
+	z-index: 2;
+}
+
+/* end  Section laptops options  --------------- */
+
+footer {
+	position: relative;
+	width: 800px;
+	margin: 5px auto;
+	padding: 5px;
+	text-align: right;
+	font-size: 10px;
+	z-index: 1;
+}

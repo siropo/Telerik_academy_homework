@@ -1,0 +1,14 @@
+table 
+{
+	margin: auto;
+	width: 250px; 
+	border: 1px solid #000;
+}
+td 
+{
+	width: 50px;
+	height: 40px;
+	text-align: center;
+	font-weight: bold;
+	border: 1px double #000;
+}

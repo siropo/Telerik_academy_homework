@@ -1,0 +1,55 @@
+.info_panel:after, .info ul:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+.info_panel {
+	width: 300px;
+	float: right;
+	margin: -15px 5px 0 0;
+	padding: 0 2px;
+	text-align: right;
+	font-weight: bold;
+	color: #74653D;
+}
+
+.info {
+	position: relative;
+	float: left;
+	padding: 0 2px;
+	text-align: right;
+	font-size: 10px;
+	font-weight: bold;
+	color: #74653D;
+}
+
+.info ul li {
+	width: 90px;
+	list-style-type: none;
+	padding: 2px;
+	float: left;
+}
+
+.info ul li.sub_info {
+	padding: 0 10px;
+}
+
+.info span {
+	display: inline-block;
+	background-color: #74653D;
+	padding: 1px 5px;
+}
+
+span.green_txt {
+	color: #fff;
+}
+
+span.orange_txt {
+	color: #ffc11a;
+}
+
+span.red_txt {
+	color: #ff4b2d;
+}

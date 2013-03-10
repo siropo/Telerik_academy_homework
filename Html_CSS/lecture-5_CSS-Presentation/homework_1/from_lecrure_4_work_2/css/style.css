@@ -1,0 +1,16 @@
+body { margin:0; padding: 0; }
+img { border: none; }
+table { margin: 50px auto; width: 600px; background-color: #fff; color: black; border-spacing: 0; border: 5px solid #AEFF0D;}
+td { width: 150px;  height: 30px;  font-size: 12px; font-family: sans-serif; text-align: left; font-weight: normal; padding-left: 5px; }
+td.t_head { border-left: 1px solid #3a8f08; border-top: 1px solid #3a8f08; border-bottom: 1px solid #3a8f08; border-right: 1px solid #6cc71f; }
+td.t_head_last { border: 1px solid #3a8f08; }
+td.body { border-left: 1px solid #c7c5ae; } 
+td.body_last { border-right: 1px solid #c7c5ae; border-left: 1px solid #c7c5ae; }
+tr:first-child { background: url("../img/back.jpg") repeat-x; color: white; }
+tr:nth-child(2n+3) { background: #ececd8; }
+span.germany { background: url("../img/de.jpg") no-repeat; color: inherit; padding-left: 28px; }
+span.mexico { background: url("../img/mx.jpg") no-repeat; color: inherit; padding-left: 28px; }
+span.uk { background: url("../img/uk.jpg") no-repeat; color: inherit; padding-left: 28px; }
+tr:last-child td { border-bottom: 1px solid #c7c5ae; }
+
+

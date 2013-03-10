@@ -1,0 +1,376 @@
+body { 
+margin:0; 
+padding: 0; 
+font-family: sans-serif; 
+background-color: #a9a9a9; 
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6); 
+}
+
+img {
+border: none;
+}
+
+.nav_border {
+	border: 5px solid #7F7F7F;
+}
+
+.aside_border {
+	border: 5px solid #7F7F7F;
+}
+
+#wrapper { 
+margin: 10px auto; 
+width: 800px; 
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px; 
+border-radius: 15px;
+border: 1px solid #fff;
+background-color: #f0f0f0; 
+} 
+
+#left_block { 
+float: left ; 
+width: 550px; 
+
+} 
+
+nav { 
+width: 530px; 
+overflow: hidden;
+}
+
+section { 
+width: 530px; 
+}
+
+aside {  
+float: left ; 
+width: 250px;  
+margin-bottom: 30px; 
+}
+
+ul#menu {
+list-style:none;
+width: 480px;
+}
+
+ul#menu li {
+float: left;
+text-align: center;
+}
+
+ul#menu li span {
+display:block;
+background-image:url('../img/sprites.png');
+background-repeat: no-repeat;
+text-decoration: none;
+margin: auto 19px; 
+}
+
+ul#menu a {
+width: 90px;
+background-image: url("../img/sprites.png");
+background-repeat: no-repeat;
+line-height: 20px;
+text-decoration: none;
+font-size: 10px;
+color: #999797;
+display:block;
+}
+
+ul#menu a:hover {
+width: 90px;
+background-image: url("../img/sprites.png");
+background-repeat: no-repeat;
+line-height: 20px;
+text-decoration: none;
+font-size: 10px;
+color: #ff0468;
+display:block;
+}
+
+ul#sidebar {
+list-style:none;
+width: 190px;
+margin-left: -20px;
+margin-top: 35px;
+}
+
+ul#sidebar li span {
+display:block;
+background-image: url('../img/sprites.png');
+background-repeat: no-repeat;
+text-decoration: none;
+float: left;
+}
+
+ul#sidebar a {
+background-repeat: no-repeat;
+text-decoration: none;
+font-size: 10px;
+color: #666;
+display:block;
+float: left;
+width: 170px;
+background-image: url('../img/sprites.png');
+padding: 4px 0 4px 4px;
+}
+
+ul#sidebar a:hover {
+background-repeat: no-repeat;
+text-decoration: none;
+font-size: 10px;
+color: #ff0468;
+display:block;
+float: left;
+width: 170px;
+background-image: url('../img/sprites.png');
+padding: 4px 0 4px 4px;
+}
+
+
+ul#menu a.no-bar { 
+background-image: none; 
+}
+
+ul#menu li span.big-task { 
+background-position: -1px -0px; 
+width: 53px; 
+height: 63px; 
+}
+
+ul#menu li span.big-reports { 
+background-position: -55px -0px; 
+width: 53px; 
+height: 63px; 
+}
+
+ul#menu li span.big-404 { 
+background-position: -109px -0px; 
+width: 54px; 
+height: 63px; 
+}
+
+ul#menu li span.big-dashboard { 
+background-position: -1px -64px; 
+width: 53px; 
+height: 63px; 
+}
+
+ul#menu li span.big-users { 
+background-position: -55px -64px; 
+width: 53px; 
+height: 63px; 
+}
+
+ul#menu li a.bar { 
+background-position: -165px 20px; 
+}
+
+ul#sidebar li { 
+	
+}
+
+ul#sidebar li span.small-gallery { 
+background-position: -109px -64px;
+width: 23px; 
+height: 23px; 
+}
+
+ul#sidebar li span.small-404 { 
+background-position: -133px -64px; 
+width: 23px; 
+height: 23px; 
+}
+
+ul#sidebar li span.small-dashboard {
+background-position: -109px -88px; 
+width: 23px; 
+height: 23px; 
+}
+
+ul#sidebar li span.small-message { 
+background-position: -133px -88px; 
+width: 23px; 
+height: 23px; 
+}
+
+ul#sidebar li span.small-contacts { 
+background-position: -109px -112px; 
+width: 23px; 
+height: 23px; 
+}
+
+ul#sidebar li span.small-typography { 
+background-position: -133px -112px;
+width: 23px; 
+height: 23px; 
+}
+
+ul#sidebar li span.small-charts { 
+background-position: -1px -128px; 
+width: 23px; 
+height: 23px; 
+}
+
+ul#sidebar li span.small-widget { 
+background-position: -25px -128px; 
+width: 23px; 
+height: 23px; 
+}
+
+ul#sidebar li span.small-forms { 
+background-position: -49px -128px; 
+width: 23px; 
+height: 23px; 
+}
+
+ul#sidebar li span.small-icons { 
+background-position: -73px -128px;
+width: 23px; height: 23px; 
+}
+
+ul#sidebar li span.small-tabs { 
+background-position: -97px -136px;
+width: 23px; 
+height: 23px; 
+}
+
+ul#sidebar li span.small-slides {
+background-position: -121px -136px;
+width: 23px;
+height: 23px; 
+}
+
+ul#sidebar li span.small-file { 
+background-position: -145px -136px; 
+width: 23px;
+height: 23px; 
+}
+
+ul#sidebar li span.small-tables { 
+background-position: -1px -152px; 
+width: 23px; 
+height: 23px; 
+}
+
+ul#sidebar li span.small-grids { 
+background-position: -25px -152px; 
+width: 23px; 
+height: 23px; 
+}
+
+ul#sidebar li a.bar_bottom {
+background-position: -1px -176px; 
+}
+
+ul#sidebar li span.last_border {
+display: block;
+background-image: url('../img/sprites.png');
+background-position: -1px -176px; 
+width: 170px;
+}
+
+ul#sidebar li a.nobar { 
+background-image: none; 
+}
+
+ul#sidebar li span.fix_align { 
+padding: 5px 8px; 
+background-image: none; 
+width: 95px;
+}
+
+ul#sidebar li a span.blue_box {  
+font-size: 10px;
+background: #6cc1de; 
+color: #fff;
+display:block;
+float: right; 
+margin: 2px 5px 0 0;
+padding: 3px 5px;
+text-shadow: none;
+}
+
+ul#sidebar li a span.arrow_down {  
+font-size: 9px;
+color: #d8d8d8;
+display:block;
+float: right; 
+margin: 2px 5px 0 0;
+padding: 3px 5px;
+text-shadow: none;
+font-family: Verdana, sans-serif;
+font-weight: bold;
+}
+
+div.wrap_form {
+margin: 50px 60px;
+border: 5px solid #90CAD7;
+}
+
+p.form_title {
+text-transform: uppercase;
+color: #666;
+}
+
+input#username, input#pass  {
+width: 300px;
+height: 30px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px; 
+border-radius: 5px;
+/* fix opera radius bug! */
+border-top: 2px solid gray;
+border-left: 2px solid gray;
+border-right: 0;
+border-bottom: 0;
+}
+
+div.form_input {
+margin-top: 10px;
+}
+
+input#submitbtn {
+margin-left: 70px;
+}
+
+a.pass_recovery {
+color: #6cc1de;
+font-size: 12px; 
+}
+
+a.pass_recovery:hover {
+color: #ff0468;
+font-size: 12px; 
+}
+
+span.pass_recovery {
+color: #6cc1de;
+font-size: 12px; 
+margin-top: 7px;
+display: block;
+float: left;
+}
+
+div.form_footer {
+height: 70px;
+padding-top: 20px;
+}
+
+.floatfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+footer {
+position: relative;
+margin: 5px auto;
+width: 790px; 
+padding: 5px;
+text-align: right;
+font-size: 10px;
+}

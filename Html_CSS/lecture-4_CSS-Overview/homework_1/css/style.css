@@ -1,0 +1,11 @@
+body { margin:0; padding: 0; }
+img { border: none; }
+table { margin: 50px auto; width: 360px; border: none; border-collapse:collapse; background-color: #595959; color: white; }
+td { width: 180px;  height: 25px;  border: none; font-size: 12px; font-family: sans-serif; text-align: left; font-weight: normal; padding-left: 5px; vertical-align: top; }
+p.italic { font-style: italic; }
+p.ticket, p.response, p.action { color: #acb1a9; background-color: inherit; }
+a, p.active, p.link_post { color: #e3e9ab; text-decoration: none; background-color: inherit; }
+p.ticket { font-size: 18px; }
+p.active { background: url("../img/green_dot.png") no-repeat left; height: 14px; padding-left: 16px; font-weight: bold; background-color: inherit; color: inherit;}
+p.active_false { color: red; font-weight: bold; font-size: 13px; padding-left: 3px; margin-top: -6px; background-color: inherit; }
+p.answare_false { color: #f06d2c ; font-weight: bold; font-size: 13px; background-color: inherit; }

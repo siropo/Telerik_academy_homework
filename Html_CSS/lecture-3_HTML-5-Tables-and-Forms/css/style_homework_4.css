@@ -1,0 +1,14 @@
+table {  margin: auto; border-collapse: collapse; width: 460px;}
+table tr td { padding: 4px;  border: 1px solid gray; text-align: right; }
+td.left { width: 150px; height: 25px; text-align: right; }
+td.right { text-align: left; }
+td.footer { text-align: center; background-color: gray; }
+input[type="text"].state { width: 50px; }
+input[type="text"].city { width: 160px; }
+input[type="text"].zip { width: 100px; }
+input[type="text"].tel_code { width: 50px; }
+input[type="text"].tel_number { width: 135px; }
+input[type="text"].month_day { width: 25px; }
+input[type="text"].year { width: 40px; }
+input[type="text"], [type="email"]  { width: 270px; }
+textarea { width: 270px; height: 60px; }

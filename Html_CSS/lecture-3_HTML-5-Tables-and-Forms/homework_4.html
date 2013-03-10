@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Telerik lecture 2/ homework 4</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Viktor Ivanov" />
+		<link rel="stylesheet" type="text/css" href="css/style_homework_4.css" />
+	</head>
+	<body>
+		<form method="post" name="simpleForm" action="#">
+			<table>
+				<tbody>
+					<tr>
+						<td class="left"><label for="lastName">Last Name: </label></td>
+						<td colspan="3" class="right"><input type="text" name="lastName" id="lastName" placeholder="Enter your Last Name"  required="true" /></td>
+					</tr>
+					<tr>
+						<td><label for="firstName">Firts Name: </label></td>
+						<td colspan="3" class="right"><input type="text" name="firstName" id="firstName" placeholder="Enter your Firts Name" required="true" /></td>
+					</tr>
+					<tr>
+						<td><label for="address">Address: </label></td>
+						<td colspan="3" class="right"><textarea name="address" id="address"></textarea></td>
+					</tr>
+					<tr>
+						<td><label for="city">City: </label></td>
+						<td class="right"><input type="text" name="city" id="city" placeholder="Enter your city" required="true" class="city" /></td>
+						<td><label for="state">State: </label></td>
+						<td class="right"><input type="text" name="state" id="state" class="state" /></td>
+					</tr>
+					<tr>
+						<td><label for="zipCode">Zip/ Postal Code: </label></td>
+						<td colspan="3" class="right"><input type="text" name="zipCode" id="zipCode" placeholder="Enter your code" required="true" class="zip" /></td>
+					</tr>
+					<tr>
+						<td><label for="country">Country: </label></td>
+						<td colspan="3" class="right">
+							<select name="country" id="country">
+								<option value="Bolivia">Bolivia</option>
+								<option value="Bonaire">Bonaire</option>
+								<option value="Bosnia &amp; Herzegovina">Bosnia &amp; Herzegovina</option>
+								<option value="Botswana">Botswana</option>
+								<option value="Brazil">Brazil</option>
+								<option value="British Indian Ocean Ter">British Indian Ocean Ter</option>
+								<option value="Brunei">Brunei</option>
+								<option value="Bulgaria" selected="selected">Bulgaria</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="telcode">Phone (country code, aera code, number): </label></td>
+						<td colspan="3" class="right">
+							(+<input type="text" name="telcode" id="telcode" class="tel_code" />)
+							<input type="text" name="telcode" id="telcode2" class="tel_code" />
+							<input type="text" name="telnumber" id="telnumber" class="tel_number" />
+						</td>
+					</tr>
+					<tr>
+						<td><label for="email">Email: </label></td>
+						<td colspan="3" class="right">
+							<input type="email" name="email" id="email" placeholder="Enter your email address" pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$" required="true" />
+						</td>
+					</tr>
+					<tr>
+						<td><label for="month">Birth date: </label></td>
+						<td colspan="3" class="right">
+							Month: <input type="text" name="month" id="month" maxlength="2" required="true" class="month_day" />
+							Day: <input type="text" name="day" id="day" maxlength="2" required="true" class="month_day" />
+							Year (4 digit)<input type="text" name="year" id="year" maxlength="4" required="true" class="year" />
+						</td>
+					</tr>
+					<tr>
+						<td><label for="gender">Gender: </label></td>
+						<td colspan="3" class="right">
+							<select name="gender" id="gender">
+								<option value="Male">Male</option>
+								<option value="Female">Female</option>
+								<option value="Other">Other :)</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="spring2006">Starting date: </label></td>
+						<td colspan="3" class="right">
+							Spring 2006<input type="radio" name="startingDate" value="spring2006" checked="checked" id="spring2006" />
+							Summer 2006<input type="radio" name="startingDate" value="summer2006" id="summer2006" />
+						</td>
+					</tr>
+					<tr>
+						<td><label for="comments">Comments/ Questions: </label></td>
+						<td colspan="3" class="right"><textarea name="comments" id="comments"></textarea></td>
+					</tr>
+					<tr>
+						<td colspan="4" class="footer"><input type="submit" name="submitbtn" value="submit" /> <input type="reset" name="resetbtn" value="reset this form" /></td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,185 @@
+@import 'mixins.scss';
+
+$default-font-color: #fff;
+$default-link-color: #fff;
+$default-background-color: #9116f1;
+$default-font-family: serif;
+$default-font-size: 66.5%;
+$h1: 1.5em;
+$h2: 1.3em;
+$menu-font-size: 1.6em;
+
+$start-gradient-color: #d593ff;
+
+/*************************************************************	
+Reset  																						
+************************************************************/ 
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, dl, dt, dd, ol, ul, li, fieldset, div, label, legend, table, tbody, 
+tfoot, thead, tr, th, td, article, aside, footer, header, hgroup, nav, section {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background: $default-background-color;
+	color: $default-font-color;
+	font-family: $default-font-family;
+	font-size: $default-font-size;
+	& a {
+		color: $default-link-color;
+		text-decoration: none;
+	}
+
+	header {
+
+		#header-container {
+			padding-top: 30px;
+			@include linear-gradient($start-gradient-color, $default-background-color);
+			#logo-container {
+				margin-left: 12px;
+				float: left;
+			}
+			#reg-form-container {
+				margin-right: 150px;
+				float: right;
+				label {
+					width: 80px;
+					padding-bottom: 10px;
+					display: inline-block;
+					font-size: 1.1em;
+				}
+
+				input {
+					@include input-fields;
+				}
+
+				button {
+					@include button-style;
+				}
+			}
+
+			&:after {
+				@include clear;
+			}
+
+		}
+
+		#main-nav-list {
+			width: 900px;
+			margin: 10px 0 0 30px;
+			padding: 5px 10px;
+			font-size: $menu-font-size;
+			@include rounded-corners;
+			& > li {
+				position: relative;
+				padding: 5px 10px;
+				float: left;
+				list-style-type: none;
+				& ul {
+					background: $default-background-color;
+					display: none;
+					li {
+						list-style-type: none;
+					}
+				}
+			}
+
+			& li:hover ul {
+				padding: 10px;
+				width: 250px;
+				position: absolute;
+				display: block;
+			}
+
+			&:after {
+				@include clear;
+			}
+		}
+
+	}
+
+	section {
+		width: 900px;
+		padding: 20px;
+		float: left;
+		article {
+			margin-bottom: 20px;
+			padding: 20px 15px;
+			@include rounded-corners;
+			h1 {
+				padding-left: 5px;
+				font-size: $h1;
+				font-weight: bold;
+			}
+
+			p {
+				padding: 5px 0;
+				font-size: 1.1em;
+			}
+
+			footer {
+				text-align: right;
+				font-size: 1.2em;
+				a {
+					color: $start-gradient-color;
+				}
+
+				time {
+					font-family: Consolas;
+				}
+			}
+		}
+	}
+
+	aside {
+		margin-top: 30px;
+		width: 290px;
+		float: left;
+		font-size: 1.1em;
+
+		a {
+			color: #a496af;
+		}
+		strong, em{
+			color: #ccccd1;
+		}
+
+		& > ul > li {
+			margin-bottom: 15px;
+			padding: 10px;
+			list-style-type: none;
+			@include rounded-corners;
+			h2 {
+				padding-bottom: 5px;
+				font-size: $h2;
+				font-weight: bold;
+			}
+
+			& ul {
+				padding-left: 40px;
+			}
+
+			& ul > li {
+				list-style-image: url("../images/li-dot.png");
+				list-style-type: none;
+			}
+		}
+	}
+
+	& > footer {
+		padding-bottom: 10px;
+		text-align: center;
+		clear: both;
+		& > p {
+			font-size: 1.4em;
+			font-weight: bold;
+		}
+	}
+}
+

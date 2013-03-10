@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Telerik second project</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Viktor Ivanov" />
+		<meta name="keywords" content="keywords" />
+		<meta name="description" content="description" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/slider.css" media="screen" />
+		<script src="js/jquery-1.7.2.min.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/jquery.nivo.slider-min.js"></script>
+		<script>
+		 $(window).load(function() {
+				windowWidth = $(this).width();
+				if ( windowWidth > 943) {
+					$('#slider').nivoSlider();
+					$(window).resize(function() {
+						if ( windowWidth > 943) {
+							$('#slider').nivoSlider();
+							$('#slider').data('nivoslider').start();
+						} else if ( windowWidth < 944) {
+							$('#slider').data('nivoslider').stop();
+						}
+					});
+				} else if ( windowWidth < 944) {
+					$('#slider').nivoSlider();
+					$('#slider').data('nivoslider').stop();
+				} 
+				 
+			   });
+		</script>
+		<!--[if lte IE 8]>
+			<link rel="stylesheet" type="text/css" href="css/ie_style.css" media="screen" />
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div id="wrapper-site">
+			<!-- header -->
+			<header id="header" class="clear">
+
+				<div id="logo" class="left">
+					<a href="#" title="site name"><img src="img/logo.png" width="229" height="57" title="site logo" alt="site logo" /></a>
+				</div>
+				
+				<!-- first navigation -->
+				<nav id="first-navi" class="clear">
+					<ul>
+						<li><a href="#" title="contact">about</a></li>
+						<li><a href="#" title="contact">contact</a></li>
+						<li><a href="#" title="contact">sitemap</a></li>
+						<li><a href="#" title="contact">testimonials</a></li>
+						<li><a href="#" title="contact">location</a></li>
+						<li><a href="#" title="contact">portfolio</a></li>
+						<li><a href="#" title="contact">pricing</a></li>
+					</ul>
+				</nav>
+				<!-- end first navigation -->
+				
+			</header>
+			<!-- end header -->
+			
+			<!-- second navigation-->
+			<nav id="second-navi" class="clear">
+				<ul>
+					<li><a href="#" title="contact">about</a></li>
+					<li><a href="#" title="contact">contact</a></li>
+					<li><a href="#" title="contact">sitemap</a></li>
+					<li><a href="#" title="contact">testimonials</a></li>
+					<li><a href="#" title="contact">location</a></li>
+					<li><a href="#" title="contact">portfolio</a></li>
+					<li><a href="#" title="contact">pricing</a></li>
+				</ul>
+			</nav>
+			<!-- end second navigation-->
+			
+			<!-- slider container -->
+			<div id="slider-container">
+			
+				<div class="shadow-top">&nbsp;</div>
+				
+				<!-- slider box-->
+				<div class="slider-box-images">
+					<!-- slider images-->
+					<div class="slider-wrapper theme-default">
+						<div id="slider" class="nivoSlider">
+							<a href="#" id="link_slider1"><img src="img/slider/slide_1.jpg" data-thumb="images/slider_1.jpg" alt="slide_1" width="882" height="250" title="#post-intro1"  /></a>
+							<a href="#" id="link_slider2"><img src="img/slider/toystory.jpg" data-thumb="images/toystory.jpg" alt="slide_2" title="#post-intro2" /></a>
+							<a href="#" id="link_slider3"><img src="img/slider/up.jpg" data-thumb="images/up.jpg" alt="slide_3" title="#post-intro3" /></a>
+							<a href="#" id="link_slider4"><img src="img/slider/walle.jpg" data-thumb="images/walle.jpg" alt="slide_4" title="#post-intro4" /></a>
+							<a href="#" id="link_slider5"><img src="img/slider/nemo.jpg" data-thumb="images/nemo.jpg" alt="slide_5" title="#post-intro5" /></a>
+						</div>
+					</div>
+					<!-- end slider images-->
+				</div>
+				<!-- end slider box-->
+				
+				<!-- slider bottom part -->
+				<div class="slider-bottom clear">
+					<!-- slider display acticles area-->
+					<div class="slider-posts left">
+						<!-- slider  articles -->
+						<div id="post-intro1" class="nivo-article">
+							<article>
+								<div class="header-slider clear">
+									<span class="num left">1.</span>
+									<header class="title left"><h1 class="word-wrap"><a href="#" title="Design Elegance">Design Elegance</a></h1>
+										<span class="article-meta">Posted by Admin on Jan. 15th 2008</span>
+									</header>
+								</div>
+								<div class="slider-text clear">
+									<span class="decor left">&#125;</span>
+									
+									<p class="left">
+										Lorem ipsum dolor sit amet, consectetuer elit. Sed libero, ultricies sed, pulvinar eu, ullamcorper eu, sapien. 
+										Pellentesque id lorem in nisl molestie viverra. Integer est massa, tincidunt quis, egestas et, lobortis et, risus. Fusce 
+									</p>
+								</div>
+								<footer>
+										<div class="btn right">
+											<a href="#" class="clear"><span class="fix-icon-read-more left"><img src="img/site_parts/pixel.gif" class="sprite icon-read-more" alt="icon" /></span>
+											<span class="tabs-text left">Continue Reading</span></a>
+										</div>
+								</footer>
+							</article>
+						</div>
+						<div id="post-intro2" class="nivo-article">
+							<article>
+								<div class="header-slider clear">
+									<span class="num left">2.</span>
+									<header class="title  left"><h1 class="word-wrap"><a href="#" title="DEA agents terrorized the wrong family, including children, after license plate mix-up">DEA agents terrorized the wrong family, including children, after license plate mix-up</a></h1>
+										<span class="article-meta">Thursday, June 21, 2012 by: J. D. Heyes</span>
+									</header>
+								</div>
+								<div class="slider-text clear">
+									<span class="decor left">&#125;</span>
+									
+									<p class="left">
+										(NaturalNews) Not that it happens often, but when police and federal agents screw up, they sure seem to do it right.
+										The agency could be held liable for a botched raid during the early morning hour in 2007,
+									</p>
+								</div>
+								<footer>
+										<div class="btn right">
+											<a href="#" class="clear"><span class="fix-icon-read-more left"><img src="img/site_parts/pixel.gif" class="sprite icon-read-more" alt="icon" /></span>
+											<span class="tabs-text left">Continue Reading</span></a>
+										</div>
+								</footer>
+							</article>
+						</div>
+						<div id="post-intro3" class="nivo-article">
+							<article>
+								<div class="header-slider clear">
+									<span class="num left">3.</span>
+									<header class="title  left"><h1 class="word-wrap"><a href="#" title="'Call Me Maybe' parody song takes aim at 'Dumb and Lazy' Americans - outrageous music video goes viral">'Call Me Maybe' parody song takes aim at 'Dumb and Lazy' Americans - outrageous music video goes viral</a></h1>
+										<span class="article-meta">Posted by Admin on Jan. 15th 2008</span>
+									</header>
+								</div>
+								<div class="slider-text clear">
+									<span class="decor left">&#125;</span>
+									
+									<p class="left">
+										(NaturalNews) The pop song "Call Me Maybe" by Carly Rae Jepsen has smashed top 40 music 
+										records over the last several months, and her music video has racked up 150 million views on YouTube alone 
+										(<a href="http://www.youtube.com/watch?v=fWNaR-rxAic">http://www.youtube.com/watch?v=fWNaR-rxAic</a>). "Call Me Maybe" is a simple yet unmistakable tune that you just can't shake after hearing it.
+									</p>
+								</div>
+								<footer>
+										<div class="btn right">
+											<a href="#" class="clear"><span class="fix-icon-read-more left"><img src="img/site_parts/pixel.gif" class="sprite icon-read-more" alt="icon" /></span>
+											<span class="tabs-text left">Continue Reading</span></a>
+										</div>
+								</footer>
+							</article>
+						</div>
+						<div id="post-intro4" class="nivo-article">
+							<article>
+								<div class="header-slider clear">
+									<span class="num left">4.</span>
+									<header class="title  left"><h1 class="word-wrap"><a href="#" title="The end of privacy: Government to deploy laser-based 'molecular strip-search' devices across airports and roadside checkpoints">The end of privacy: Government to deploy laser-based 'molecular strip-search' devices across airports and roadside checkpoints</a></h1>
+										<span class="article-meta">Posted by Admin on Jan. 15th 2008</span>
+									</header>
+								</div>
+								<div class="slider-text clear">
+									<span class="decor left">&#125;</span>
+									
+									<p class="left">
+										(NaturalNews) Within the next two years, a spooky, powerful and invisible new technology will be deployed by the U.S. government that can instantly scan and identify every molecule on your body or person: the cocaine residue on your dollar bills, prescription drugs in your purse, marijuana in your pocket and even trace powder residue from your practice session at the gun range.
+									</p>
+								</div>
+								<footer>
+										<div class="btn right">
+											<a href="#" class="clear"><span class="fix-icon-read-more left"><img src="img/site_parts/pixel.gif" class="sprite icon-read-more" alt="icon"  /></span>
+											<span class="tabs-text left">Continue Reading</span></a>
+										</div>
+								</footer>
+							</article>
+						</div>
+						<div id="post-intro5" class="nivo-article">
+							<article>
+								<div class="header-slider clear">
+									<span class="num left">5.</span>
+									<header class="title  left"><h1 class="word-wrap"><a href="#" title="Discovery of magnetic sensors in fish and rats may explain why some people can 'feel' wi-fi, smart meters, power lines and electropollution">Discovery of magnetic sensors in fish and rats may explain why some people can 'feel' wi-fi, smart meters, power lines and electropollution</a></h1>
+										<span class="article-meta">Posted by Admin on Jan. 15th 2008</span>
+									</header>
+								</div>
+								<div class="slider-text clear">
+									<span class="decor left">&#125;</span>
+									
+									<p class="left">
+										(NaturalNews) It is well known that many people are sensitive to electromagnetic pollution. Wi-fi gives them headaches. Being near high-voltage power lines can bring on migraines. Using a cell phone unleashes similar symptoms. Until recently, there was no medically-understood mechanism by which electromagnetic waves could be sensed by humans. But now, thanks to some fascinating science summarized here, that mystery may be closer to being solved.
+									</p>
+								</div>
+								<footer>
+										<div class="btn right">
+											<a href="#" class="clear"><span class="fix-icon-read-more left"><img src="img/site_parts/pixel.gif" class="sprite icon-read-more" alt="icon" /></span>
+											<span class="tabs-text left">Continue Reading</span></a>
+										</div>
+								</footer>
+							</article>
+						</div>
+						<!-- end slider acticles -->
+					</div>
+					<!-- end slider display acticles area-->
+					
+					<!-- slider advert part-->
+					<div class="advertising left clear">
+						<div class="border-box-1 left"><a href="#" title="advert1"><img src="img/advert/android.jpg" width="124" height="124" alt="" /></a></div>
+						<div class="border-box-1 left"><a href="#" title="advert2"><img src="img/advert/angry_bird.png" width="124" height="124" alt="" /></a></div>
+					</div>
+					<!-- end slider advert part-->
+				</div>
+				
+				<div class="bottom-slider-part">&nbsp;</div>
+				
+				<!-- end slider bottom part -->
+			</div>
+			<!-- end slider container -->
+			
+			<!-- front page content -->
+			<!-- front page part 1 -->
+			<div id="front-page-wrapper">
+				<div class="resent-cat clear">
+					<div class="container left">
+							<div class="tabs-holder clear">
+								<div class="short-info tabs">	
+									<a href="#" class="clear"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-tabs" alt="icon" /></span>
+									<h3 class="tabs-text left">Review</h3></a>
+								</div>
+							</div>
+							<div class="box-info clear">
+								
+								<div class="border-box-2"><a href="#" title="none"><img src="img/posts/assain.jpg" width="190" height="95" alt="" /></a></div>
+								<header>
+									<h2 class="word-wrap"><a href="#">Microsoft buys the company Perceptive Pixel</a></h2>
+								</header>
+								<p class="front-page-entry">During our long history, we have gained extensive market knowledge, refined our leading edge technology platform,
+								and sharpened business process to allow us to offer the most effective fully managed mobile billing and payment solutions.
+								The result is that our clients can reap the benefits of this experience:
+								</p>
+								<div class="btn-bottom">
+									<div class="btn right">
+												<a href="#" class="clear"><span class="fix-icon-read-more left"><img src="img/site_parts/pixel.gif" class="sprite icon-read-more" alt="icon" /></span>
+												<span class="tabs-text left">More</span></a>
+									</div>
+								</div>
+							
+							</div>
+					</div>
+					<div class="container left">
+							<div class="tabs-holder clear">
+								<div class="short-info tabs">	
+									<a href="#" class="clear"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-tabs" alt="icon" /></span>
+									<h3 class="tabs-text left">News</h3></a>
+								</div>
+							</div>
+							<div class="box-info clear">
+
+								<div class="border-box-2"><a href="#" title="none"><img src="img/posts/bt.jpg" width="190" height="95" alt="" /></a></div>
+								<header>
+									<h2 class="word-wrap"><a href="#">Microsoft buys the company </a></h2>
+								</header>
+								<p class="front-page-entry">During our long history, we have gained extensive market knowledge, refined our leading edge technology platform,
+								and sharpened business process to allow us to offer the most effective fully managed mobile billing 
+								</p>
+								<div class="btn-bottom">
+									<div class="btn right">
+												<a href="#" class="clear"><span class="fix-icon-read-more left"><img src="img/site_parts/pixel.gif" class="sprite icon-read-more" alt="icon" /></span>
+												<span class="tabs-text left">More</span></a>
+									</div>
+								</div>
+								
+							</div>
+					</div>
+					<div class="container left">
+							<div class="tabs-holder clear">
+								<div class="short-info tabs">	
+									<a href="#" class="clear"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-tabs" alt="icon" /></span>
+									<h3 class="tabs-text left">Android</h3></a>
+								</div>
+							</div>
+							<div class="box-info clear">
+
+								<div class="border-box-2"><a href="#" title="none"><img src="img/posts/diablo.jpg" width="190" height="95" alt="" /></a></div>
+								<header>
+									<h2 class="word-wrap"><a href="#">Microsoft buys </a></h2>
+								</header>
+								<p class="front-page-entry">During our long history, we have gained extensive market knowledge, refined our leading edge technology platform,
+
+								</p>
+								<div class="btn-bottom">
+									<div class="btn right">
+												<a href="#" class="clear"><span class="fix-icon-read-more left"><img src="img/site_parts/pixel.gif" class="sprite icon-read-more" alt="icon" /></span>
+												<span class="tabs-text left">More</span></a>
+									</div>
+								</div>
+							</div>
+					</div>
+					<div class="container left">
+							<div class="tabs-holder clear">
+								<div class="short-info tabs">	
+									<a href="#" class="clear"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-tabs" alt="icon" /></span>
+									<h3 class="tabs-text left">Iphone</h3></a>
+								</div>
+							</div>
+							<div class="box-info clear">
+
+								<div class="border-box-2"><a href="#" title="none"><img src="img/posts/pic1.jpg"  width="190" height="95" alt="" /></a></div>
+								<header>
+									<h2 class="word-wrap"><a href="#">Microsoft buys the company Perceptive PixelMicrosoft buys the company Perceptive the company Perceptive the company Perceptive</a></h2>
+								</header>
+								<p class="front-page-entry">During our long history, we have gained extensive market knowledge, refined our leading edge technology platform,
+								and sharpened business process to allow us to offer the most effective fully managed mobile billing and payment solutions.
+								The result is that our clients can reap the benefits of this experience:most effective fully managed mobile billing and payment solutions.
+								The result is that our clients can reap the benefits of this experience:
+								</p>
+								<div class="btn-bottom">
+									<div class="btn right">
+												<a href="#" class="clear"><span class="fix-icon-read-more left"><img src="img/site_parts/pixel.gif" class="sprite icon-read-more" alt="icon" /></span>
+												<span class="tabs-text left">More</span></a>
+									</div>
+								</div>
+								
+							</div>
+					</div>
+				</div>
+				<!-- end front page part 1 -->
+				<!-- front page part 2 -->
+				<div class="front-page-bottom-part clear">
+				<!-- top article -->
+					<div class="top-cat left">
+						<div class="container">
+								<div class="tabs-holder clear">
+									<div class="short-info tabs">	
+										<a href="#" class="clear"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-tabs" alt="icon" /></span>
+										<h3 class="tabs-text left">Recent Posts</h3></a>
+									</div>
+								</div>
+								<div class="box-info clear">
+									<header>
+										<h2 class="word-wrap"><a href="#">Microsoft buys the company Perceptive Pixel</a></h2>
+									</header>
+									<div class="border-box-2 left"><a href="#" title="none"><img src="img/posts/bt2.jpg"  width="130" height="130" alt="" /></a></div>
+									<p>During our long history, we have gained extensive market knowledge, refined our leading edge technology platform,
+									and sharpened business process to allow us to offer the most effective fully managed mobile billing and payment solutions.
+									The result is that our clients can reap the benefits of this experience:
+									</p>
+									<p>During our long history, we have gained extensive market knowledge, refined our leading edge technology platform,
+									and sharpened business process to allow us to offer the most effective fully managed mobile billing and payment solutions.
+									</p>
+									<div class="btn right">
+												<a href="#" class="clear"><span class="fix-icon-read-more left"><img src="img/site_parts/pixel.gif" class="sprite icon-read-more" alt="icon" /></span>
+												<span class="tabs-text left">More</span></a>
+									</div>
+									
+								</div>
+						</div>
+					</div>
+					<!--end top article -->
+					<!--front page sidebar -->
+					<div id="sidebar-front-page" class="left clear">
+						<div class="container left">
+							<div class="tabs-holder clear">
+								<div class="short-info tabs">	
+									<a href="#" class="clear"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-tabs" alt="icon" /></span>
+									<h3 class="tabs-text left">Popular Posts</h3></a>
+								</div>
+							</div>
+							<div class="box-info clear">
+								<ul>
+									<li>
+										<h3><a href="http://avaart.net/telerik-wall-theme/nasl-crowns-season-3-champions/" title="NASL crowns Season 3 champions">NASL crowns Season 3 champions</a></h3>
+										<p>Posted by <strong>admin</strong> on the July 24th, 2012 with
+										<a href="http://avaart.net/telerik-wall-theme/nasl-crowns-season-3-champions/#comments" title="Comment on NASL crowns Season 3 champions">2 Comments</a>
+										</p>
+									</li>
+									<li>
+										<h3><a href="http://avaart.net/telerik-wall-theme/nasl-crowns-season-3-champions/" title="NASL crowns Season 3 champions">NASL crowns Season 3 champions</a></h3>
+										<p>Posted by <strong>admin</strong> on the July 24th, 2012 with
+										<a href="http://avaart.net/telerik-wall-theme/nasl-crowns-season-3-champions/#comments" title="Comment on NASL crowns Season 3 champions">2 Comments</a>
+										</p>
+									</li>
+									<li>
+										<h3><a href="http://avaart.net/telerik-wall-theme/nasl-crowns-season-3-champions/" title="NASL crowns Season 3 champions">NASL crowns Season 3 champions</a></h3>
+										<p>Posted by <strong>admin</strong> on the July 24th, 2012 with
+										<a href="http://avaart.net/telerik-wall-theme/nasl-crowns-season-3-champions/#comments" title="Comment on NASL crowns Season 3 champions">2 Comments</a>
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>	
+					
+						<div class="container left">
+							<div class="tabs-holder clear">
+								<div class="short-info tabs">	
+									<a href="#" class="clear"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-tabs" alt="icon" /></span>
+									<h3 class="tabs-text left">Random posts</h3></a>
+								</div>
+							</div>
+							<div class="box-info clear">
+								<ul>
+									<li>
+										<h3><a href="http://avaart.net/telerik-wall-theme/nasl-crowns-season-3-champions/" title="NASL crowns Season 3 champions">NASL crowns Season 3 champions</a></h3>
+										<p>Posted by <strong>admin</strong> on the July 24th, 2012 with
+										<a href="http://avaart.net/telerik-wall-theme/nasl-crowns-season-3-champions/#comments" title="Comment on NASL crowns Season 3 champions">2 Comments</a>
+										</p>
+									</li>
+									<li>
+										<h3><a href="http://avaart.net/telerik-wall-theme/nasl-crowns-season-3-champions/" title="NASL crowns Season 3 champions">NASL crowns Season 3 champions</a></h3>
+										<p>Posted by <strong>admin</strong> on the July 24th, 2012 with
+										<a href="http://avaart.net/telerik-wall-theme/nasl-crowns-season-3-champions/#comments" title="Comment on NASL crowns Season 3 champions">2 Comments</a>
+										</p>
+									</li>
+									<li>
+										<h3><a href="http://avaart.net/telerik-wall-theme/nasl-crowns-season-3-champions/" title="NASL crowns Season 3 champions">NASL crowns Season 3 champions</a></h3>
+										<p>Posted by <strong>admin</strong> on the July 24th, 2012 with
+										<a href="http://avaart.net/telerik-wall-theme/nasl-crowns-season-3-champions/#comments" title="Comment on NASL crowns Season 3 champions">2 Comments</a>
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>	
+					</div>					
+				</div>
+				<!-- end front sidebar -->
+			</div>
+			<!-- end front page part 2 -->
+			<!-- end front page content -->
+			
+			<!-- content -->
+			<div id="wrapper-body">
+				<div class="wall-top clear">
+					<!-- content articles -->
+					<section id="contents" class="left">
+						<article class="post clear">
+							<div class="border-box-2 left">
+								<img src="img/posts/post_1.jpg" width="60" height="60" alt="post_1" />
+							</div> 
+							<div class="entry left">
+								<header>
+									<h2 class="word-wrap"><a href="#">Microsoft buys the company Perceptive Pixel</a></h2>
+								</header>
+								<p>
+									Along with the announcement of the premiere date of Windows 8, Microsoft said today, and
+									that buys the company Perceptive Pixel. The value of the transaction is not known,
+									Perceptive Pixel and are known for their multi-touch technology for displays and large screens
+									used by various ...
+								</p>
+							</div>
+						</article>
+						<article class="post clear">
+							<div class="border-box-2 left">
+								<img src="img/posts/post_2.jpg" width="60" height="60" alt="post_2" />
+							</div> 
+							<div class="entry left">
+								<header>
+									<h2 class="word-wrap"><a href="#">We'll see version of Angry Birds, where users will come from the country of the pigs</a></h2>
+								</header>
+								<p>
+									We can not deny that Rovio try not to let users of Angry Birds get bored.
+									Even if you scrolled several times the current versions of all its possible levels, the company
+									will take care to add to not lose your attention. According to ...
+								</p>
+							</div>
+						</article>
+						<article class="post clear">
+							<div class="border-box-2 left">
+								<img src="img/posts/post_3.jpg" width="60" height="60" alt="post_3" />
+							</div> 
+							<div class="entry left">
+								<header>
+									<h2 class="word-wrap"><a href="#">Galaxy Nexus again sold in the U.S.</a></h2>
+								</header>
+								<p>
+									You may remember that sales of Galaxy Nexus to the United States were halted at the end of last week
+									with a promise to resume quickly. Google kept my word and the phone is available again
+									Store in Google Play, after Samsung was able to insure that the temporary suspension of ...
+								</p>
+							</div>
+						</article>
+					</section>
+				<!-- end content articles -->
+				<!-- sidebar -->
+					<aside id="sidebar" class="left">
+						<!-- short info container -->
+						<div class="container">
+							<div class="tabs-holder clear">
+								<div class="short-info tabs">	
+									<a href="#" class="clear"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-tabs" alt="icon" /></span>
+									<h3 class="tabs-text left">About Us</h3></a>
+								</div>
+							</div>
+							<div class="box-info">
+								<p>Working with clients who range from brands and advertisers to application and game developers, we have helped
+								merchants to create a higher converting, longer lasting, more reliable and secure billing and payment solution for their digital – Internet and Mobile – products.
+								</p>
+								<p>During our long history, we have gained extensive market knowledge, refined our leading edge technology platform,
+								and sharpened business process to allow us to offer the most effective fully managed mobile billing and payment solutions.
+								The result is that our clients can reap the benefits of this experience:
+								</p>
+							</div>
+						</div>
+						<!-- end short info container -->
+						
+						<!-- tabs container -->
+						<div class="container">
+							<nav class="tabs-navi">
+								<ul id="tabs" class="clear">
+									<li class="active">
+										<a href="#tab1" class="clear"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-tabs-small" alt="icon" /></span>
+										<h3 class="tabs-text left">Comments</h3></a>
+									</li>
+									<li>
+										<a href="#tab2" class="clear"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-tabs-small" alt="icon" /></span>
+										<h3 class="tabs-text left">Popular</h3></a>
+									</li>
+									<li class="last">
+										<a href="#tab3" class="clear"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-tabs-small" alt="icon" /></span>
+										<h3 class="tabs-text left">Random</h3></a>
+									</li>
+								</ul>
+							</nav>
+							<div id="tab1" class="box-tabs" style="display: block;">
+								<a href="#"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-comment-link" alt="icon" /></span>Tester from Denmark on Nam libero tempore, cum soluta nobis est</a>
+								<a href="#"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-comment-link" alt="icon" /></span>admin on Ut sagittis ultrices urna eget erat non purus varius</a>
+								<a href="#"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-comment-link" alt="icon" /></span>admin on Nam libero tempore, cum soluta nobis est</a>
+								<a href="#"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-comment-link" alt="icon" /></span>admin on Neque porro quisquam est, qui dolorem ipsum</a>
+								<a href="#"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-comment-link" alt="icon" /></span>admin on Nulla tincidunt lorem imperdiet interdum dolor</a>
+							</div>
+							<div id="tab2" class="box-tabs">
+								<a href="#"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-comment-link" alt="icon" /></span>Tester from Denmark on Nam libero tempore, cum soluta nobis est</a>
+								<a href="#"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-comment-link" alt="icon" /></span>Tester from Denmark on Nam libero tempore, cum soluta nobis est</a>
+								<a href="#"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-comment-link" alt="icon" /></span>Tester from Denmark on Nam libero tempore, cum soluta nobis est</a>
+								<a href="#"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-comment-link" alt="icon" /></span>Tester from Denmark on Nam libero tempore, cum soluta nobis est</a>
+								<a href="#"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-comment-link" alt="icon" /></span>Tester from Denmark on Nam libero tempore, cum soluta nobis est</a>
+								<a href="#"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-comment-link" alt="icon" /></span>Tester from Denmark on Nam libero tempore, cum soluta nobis est</a>
+								<a href="#"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-comment-link" alt="icon" /></span>Tester from Denmark on Nam libero tempore, cum soluta nobis est</a>
+								<a href="#"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-comment-link" alt="icon" /></span>Tester from Denmark on Nam libero tempore, cum soluta nobis est</a>
+								<a href="#"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-comment-link" alt="icon" /></span>Tester from Denmark on Nam libero tempore, cum soluta nobis est</a>
+								<a href="#"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-comment-link" alt="icon" /></span>Tester from Denmark on Nam libero tempore, cum soluta nobis est</a>
+							</div>
+							<div id="tab3" class="box-tabs">
+								<a href="#"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-comment-link" alt="icon" /></span>Tester from Denmark on Nam libero tempore, cum soluta nobis est</a>
+								<a href="#"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-comment-link" alt="icon" /></span>admin on Ut sagittis ultrices urna eget erat non purus varius</a>
+								<a href="#"><span class="left"><img src="img/site_parts/pixel.gif" class="sprite icon-comment-link" alt="icon" /></span>admin on Nam libero tempore, cum soluta nobis est</a>
+							</div>
+						</div>
+						<!-- end tabs container -->
+					</aside>
+					<!-- end sidebar -->
+				</div>
+			</div>
+			<!-- end content -->
+			<!-- footer -->
+			<footer id="footer">
+				<span class="perl-position"><img src="img/site_parts/pixel.gif" class="sprite icon-perl" alt="icon" /></span>
+				<div class="wrapper-footer clear">
+					<section class="left">
+						<p>Telerik academy Web Design Course</p>
+					</section>	
+					<section class="right">
+						<p class="author">created by Viktor Ivanov</p>
+					</section>
+				</div>
+			</footer>
+			<!-- end footer -->
+		</div>
+	</body>
+</html>

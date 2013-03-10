@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Telerik lecture 2/ homework 3</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Viktor Ivanov" />
+		<link rel="stylesheet" type="text/css" href="css/style_homework_3.css" />
+	</head>
+	<body>
+		<fieldset>
+			<legend>Simple Form</legend>
+				<form method="post" name="simpleForm" action="#">
+					<table>
+						<tbody>
+							<tr>
+								<td><label for="m_name">Member name: </label></td>
+								<td><input type="text" name="m_name" id="m_name" placeholder="Enter your member name"  required="true" /></td>
+							</tr>
+							<tr>
+								<td><label for="email">Email: </label></td>
+								<td><input type="email" name="email" id="email" placeholder="Enter your email address" pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$" required="true" /></td>
+							</tr>
+							<tr>
+								<td><label for="school">School: </label></td>
+								<td><input type="text" name="school" id="school" placeholder="Enter your school" required="true" /></td>
+							</tr>
+							<tr>
+								<td colspan="2"><input type="image" name="submitbtn" src="img/gray_submit_button.png" alt="Submit" width="68" height="30" /></td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
+		</fieldset>
+	</body>
+</html>

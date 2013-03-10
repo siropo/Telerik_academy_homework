@@ -1,0 +1,25 @@
+fieldset 
+{
+	width: 380px;
+	position: relative;
+	top: 60px;
+	margin: auto;
+	height: 200px;
+}
+table
+{
+	position: absolute;
+	top: 55px;
+	margin: auto;
+}
+td 
+{
+	width: 150px; 
+	height: 25px;
+	text-align: right;
+	border: 0;
+}
+input[type="text"], [type="email"] 
+{
+	width: 200px;
+}

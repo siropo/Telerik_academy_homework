@@ -1,0 +1,381 @@
+/* reset  --------------- */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, 
+p, pre, a, em, small, strike, strong,ol, ul, li,
+article, aside, footer, header, hgroup, menu, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	outline:0;
+	vertical-align:baseline;
+	background:transparent;
+	height: auto;
+}
+
+img {
+	border: none;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+/* end reset  --------------- */
+
+/* main option --------------- */
+
+@font-face
+{
+	font-family:	"arial narrow";
+	src: url("../font/arialn.ttf");
+}
+
+body { 
+	font: normal normal 11px Verdana, arial, sans-serif;
+	background: #dfd3b5 url('../img/body_back.png') repeat-x top left;
+	color: #74653D;
+	line-height: 1;
+}
+
+a {
+	color: #74653D;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #464544;
+	text-decoration: underline;
+}
+
+.clear {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	line-height: 0;
+	zoom: 1;
+}
+
+	#wrapper_main {
+		width: 777px;
+		height: 100%; /* FIX IE7 IE6!!! */
+		margin: 30px auto 0 auto;
+		background: url('../img/sprite_x.jpg') repeat-y;
+		background-position: 0 0; 
+	}
+	
+/* end main option --------------- */
+
+/* left_block section ------------------------------------ */
+
+			#left_block, #section_content {
+				float: left;
+			}
+			
+			#left_block {
+				width: 243px;
+			}
+			
+				#logo_position {
+					width: 243px; 
+					height: 152px;
+					background: url('../img/sprite.jpg') no-repeat top left;
+					background-position: -1625px 0;
+				}
+					
+					hgroup {
+						padding-left: 0;
+						color: #595959;
+					}
+					
+						hgroup h1 {
+							margin-left: 3px;
+							padding-top: 35px;
+							text-align: center;
+							font: normal normal 19px "arial narrow", arial, sans-serif;
+						}
+						
+						hgroup h2 {
+							margin: 4px 15px 2px 20px;
+							border-top: 1px solid #B8B8B8;
+							border-bottom: 1px solid #B8B8B8;
+							padding: 3px 0 3px 36px;
+							letter-spacing: 2px;
+							font-weight: bold;
+						}
+				
+				nav {
+					width: 9px; 
+					background: #928260 url('../img/left_nav.jpg') no-repeat top left;
+					padding-left: 9px;
+				}
+				
+					nav ul {
+						width: 234px;
+						margin:  0;
+						background-position: 0 0;
+					}
+						
+						nav ul li {
+							padding: 7px 0 0 31px;
+							list-style: none;
+							font: 14px  "arial narrow", arial, sans-serif;
+							border-top: 1px solid #959595;
+							background-color: #2A2A2A ;
+						}
+						
+							nav a {	
+								width: 140px;
+								color: white;
+								text-decoration: none;
+								border-left: 1px solid #959595;
+								padding: 2px 0 6px 8px;
+								display: inline-block;
+							}
+							
+							.arrow {
+								margin: 0;
+								padding: 0;
+								width: 11px;
+								line-height: 9px;
+								display: inline-block;
+								background: url('../img/sprite.jpg') no-repeat right top;
+								background-position: -13px 0;
+							}
+							
+							nav a:hover {
+								color: white;
+								text-decoration: underline;
+							}
+							
+					#news_wrap {
+						width: 234px;
+						margin-bottom: 32px;
+						padding: 0 0 0 9px;
+					}
+						
+						#news_header {
+							width: 234px; 
+							height: 21px;
+							background: url('../img/sprite.jpg') no-repeat;
+							background-position: -35px 0;
+						}
+					
+						#news {
+							padding: 10px 22px 3px 37px;
+							text-align: justify;
+							background: url('../img/sprite_x.jpg') repeat-y;
+							background-position: -779px 0;
+							color: #74653D;
+							font: 11px tahoma, sans-serif;
+							zoom: 1;  /* fix background bug IE 6 IE 7 */
+						}
+							#news h2 {
+								font-size: 12px;
+								font-weight: bold;
+								color: #BE8B06;
+							}
+							
+							#news h3, #news p {
+								margin: 10px 8px 10px 0;
+								font-size: 11px;
+							}
+							
+							#news h3 {
+								font-weight: bold;
+							}
+							
+							#news a {
+								color: #74653D;
+								font-weight: bold;
+								text-decoration: underline;
+							}
+							
+							#news a:hover {
+								color: #38301A;
+							}
+							
+							#news .more {
+								font-size: 9px;
+								text-align: right;
+							}
+							
+							#news .dots {
+								height: 0; 
+								border-bottom: 1px dotted #e4e3df; 
+							}
+
+					#support {
+						width: 234px; 
+						height: 97px;
+						background: url('../img/sprite.jpg') no-repeat;
+						background-position: -1875px 0;
+						color: #1A1A18;
+					}
+					
+						#support p {
+							padding: 10px 20px;
+						}
+						
+/* end left_block section ------------------------------------ */
+						
+/*  content section ------------------------------------ */
+			
+				#section_content {
+					width: 534px;
+				}
+				
+					#content_header_img {
+						height: 279px;
+						background: url('../img/header_back.jpg') no-repeat top left;
+					}
+
+					#content_article {
+						width:495px;
+						margin-top: 40px;
+						padding-left: 30px;
+					}
+	
+						#content_article h2 {
+							font: 18px arial, sans-serif;
+							color: #BE8B06;
+							border-bottom: 1px solid #C4AE7C;
+						}
+						
+						#wellcome {
+							margin: 17px 18px 0 0;
+							font: 11px verdana, sans-serif;
+						}
+						
+							.big_image {
+								width: 171px;
+								margin-right: 18px;
+								background:  url('../img/sprite_x.jpg') repeat-y;
+								background-position: -1015px 0;
+								float: left;
+							}
+							
+								.big_image_top {
+									line-height: 12px; /* fix IE6 height 12px not working */
+									background:  url('../img/sprite.jpg') no-repeat;
+									background-position: -1224px 0;
+								}
+								
+								.big_image_bottom {	
+									line-height: 12px; /* fix IE6 , height 12px not working */
+									background:  url('../img/sprite.jpg') no-repeat;
+									background-position: -1051px 0;
+								}
+								
+								img.left_big {
+									margin: 0 12px;
+								}
+							
+							#wellcome p {
+								margin-bottom: 10px;
+							}
+							
+							#wellcome p.more, #profile p.more {
+								text-align: right;
+								font-size: 10px;
+								font-weight: bold;
+							}
+							
+					#content_article h3 {
+						font: 14px arial, sans-serif;
+						color: #BE8B06;
+						border-bottom: 1px solid #C4AE7C;
+						padding-bottom: 15px;
+						margin-bottom: 15px;
+						margin-top: 20px;
+					}
+					
+					#profile {
+						padding-bottom: 20px;
+					}
+					
+					#profile p.more {
+						margin-right: 18px;
+					}
+					
+					.small_content {
+						width: 222px;
+						padding-right: 22px;
+						float: left;
+						font: 11px tahoma, sans-serif;
+					}
+					
+						.small_image {
+								width: 112px;
+								margin-right: 15px;
+								background:  url('../img/sprite_x.jpg') repeat-y;
+								background-position: -1188px 0;
+								float: left;
+							}
+							
+								.small_image_top {
+									line-height: 10px; /* fix IE6 height 12px not working */
+									background:  url('../img/sprite.jpg') no-repeat;
+									background-position: -1511px 0;
+								}
+								
+								.small_image_bottom {
+									padding-bottom: 5px;
+									line-height: 23px; /* fix IE6 , height 12px not working */
+									text-align: center;
+									font-size: 9px;
+									font-weight: bold;
+									background:  url('../img/sprite.jpg') no-repeat;
+									background-position: -1397px 0;
+								}
+								
+								.small_content p {
+									text-align:justify; 
+								}
+								
+								img.left_small {
+									margin: 0 10px;
+								}
+								
+								
+					
+							
+/* end content section ------------------------------------ */
+
+/* footer ------------------------------------ */
+
+#footer {
+	margin: 0 9px 0 9px;
+	padding: 24px 0 14px 50px;
+	background-color: #dfd4b5;
+	color: #fff;
+	text-align: center;
+	font-size: 10px;
+}
+
+	.footer_info {
+		width: 350px;
+		margin: -8px;
+		float: left;
+		color: #74653D;
+		font-weight: bold;
+		text-align: center;
+	}
+
+#end_part_img {
+	width: 777px; 
+	margin: 0 auto 30px auto;
+	line-height: 10px;
+	background: url('../img/sprite.jpg') no-repeat bottom left;
+	background-position: -271px 0;
+}
+
+/* end footer ------------------------------------ */
+
+
+
+
+
+

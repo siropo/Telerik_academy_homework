@@ -1,0 +1,94 @@
+body { 
+	font-family: sans-serif; 
+	background-color: #F1F1F1; 
+	font-size: 12px;
+	color: #000;
+}
+
+#wrapper {
+	position: relative;
+	margin: auto;
+	width: 960px;
+	overflow: hidden;
+}
+
+header {
+	position: relative;
+	overflow: hidden;
+}
+
+header h2 {
+	background: url('../img/photoshop.png') no-repeat top left;
+	background-position: 0 10px;
+	margin-left: 35px;
+	padding: 25px 0 15px 55px;
+	float: left;
+	font-size: 18px;
+}
+
+section {
+	padding: 20px;
+}
+
+button {
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+	display: block;
+	background: none;
+	border: 0;
+	text-align: center;
+	overflow: visible;
+	cursor: pointer;
+	float: left;
+}
+
+button {
+    *margin: -1px 0 -3px 0; /* remove additional space in IE7 */
+}
+
+button::-moz-focus-inner {
+    border: 0;  /* remove inner focus from Firefox. The inner focus takes up */
+    padding: 0; /* padding in Firefox even if not focused due to a bug */
+}
+
+.clear {
+	margin: 15px 5px;
+	overflow: hidden;
+	width: 100%;
+}
+
+a.button, button span.left_part  {
+	padding: 0 0 0 38px; 
+	height: 55px;	
+	float: left;
+	background: transparent url('../img/btn_left_part.png') no-repeat top left;
+	color: #000;
+	text-decoration: none;
+}
+
+a.button span.text, button span.text {
+	padding: 12px 45px 0 0;
+	height: 55px;
+	font-family: Arial, Helvetica, sans-serif;
+	background: transparent url('../img/btn_right_part.png') no-repeat top right;
+	font-size: 18px;
+	float: left;
+	white-space: nowrap;
+}
+
+footer {
+	position: relative;
+	padding: 10px 10px 10px 0;
+	text-align: right;
+	font-size: 10px;
+	color: #000;
+}
+
+
+
+
+
+
+

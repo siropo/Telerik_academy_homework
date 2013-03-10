@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+img { 
+	border: 0;  
+}
+
+#wrapper { 
+	margin: 20px auto; 
+	width: 1012px; 
+	border: 1px solid #c7c7c7; 
+}
+
+#left { 
+	width: 232px; 
+	float: left; 
+}
+
+#inner { 
+	margin: 15px auto; 
+	width:203px; 
+	text-align: center;
+}
+
+#right { 
+	width: 755px;  
+	float: left; 
+	border-left: 1px solid #c7c7c7; 
+	min-height: 570px;
+}
+
+#content { 
+	padding: 0 40px; 
+}
+
+aside #footer { 
+	margin-top: 40px; 
+}
+
+article h1 { 
+	font-size: 2em; text-align: center; 
+}
+
+.book { 
+	padding-bottom: 10px; 
+}
+
+div.floatfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}

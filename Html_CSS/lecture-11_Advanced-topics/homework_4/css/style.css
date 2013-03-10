@@ -1,0 +1,164 @@
+body {
+	font-family: sans-serif;
+	background: #F9FAFE url('../img/back.jpg') repeat-x top left;
+}
+
+div, footer {	
+	width: 205px;
+	margin: 50px auto 0 auto;
+}
+
+div span, .sprite_icon {	
+	width: 16px;
+	height: 16px;
+	background: url('../img/sprite_icons.png') no-repeat top left;
+	display: inline-block;
+}
+
+.page_white_cup {
+	background-position: 0 0;
+}
+
+.page_white_delete {
+	background-position: -18px 0;
+}
+
+.page_white_edit {
+	background-position: -36px 0;
+}
+
+.page_white_excel {
+	background-position: -54px 0;
+}
+
+.page_white_php {
+	background-position: -72px 0;
+}
+
+.page_white_powerpoint {
+	background-position: -90px 0;
+}
+
+.page_white_ruby {
+	background-position: -108px 0;
+}
+
+.user {
+	background-position: -126px 0;
+}
+
+.user_add {
+	background-position: -144px 0;
+}
+
+.user_delete {
+	background-position: -162px 0;
+}
+
+.user_edit {
+	background-position: 0 -18px;
+}
+
+.comment {
+	background-position: -18px -18px;
+}
+
+.comment_add {
+	background-position: -36px -18px;
+}
+
+.comment_delete {
+	background-position: -54px -18px;
+}
+
+.comment_edit {
+	background-position: -72px -18px;
+}
+
+.comments {
+	background-position: -90px -18px;
+}
+
+.comments_add {
+	background-position: -108px -18px;
+}
+
+.comments_delete {
+	background-position: -126px -18px;
+}
+
+.folder {
+	background-position: -144px -18px;
+}
+
+.folder_add {
+	background-position: -162px -18px;
+}
+
+.folder_delete {
+	background-position: 0 -36px;
+}
+
+.folder_edit {
+	background-position: -18px -36px;
+}
+
+.group {
+	background-position: -36px -36px;
+}
+
+.group_add {
+	background-position: -54px -36px;
+}
+
+.group_delete {
+	background-position: -72px -36px;
+}
+
+.group_edit {
+	background-position: -90px -36px;
+}
+
+.page_white {
+	background-position: -108px -36px;
+}
+
+.page_white_acrobat {
+	background-position: -126px -36px;
+}
+
+.page_white_actionscript {
+	background-position: -144px -36px;
+}
+
+.page_white_add {
+	background-position: -162px -36px;
+}
+
+.page_white_c {
+	background-position: 0 -54px;
+}
+
+.page_white_camera {
+	background-position: -18px -54px;
+}
+
+.page_white_cplusplus {
+	background-position: -36px -54px;
+}
+
+.page_white_csharp {
+	background-position: -54px -54px;
+}
+
+.writen {
+	text-decoration: underline;
+}
+
+footer {
+	margin: 0 auto;
+	padding: 55px 10px 0 0;
+	text-align: right;
+	font-size: 11px;
+	color: #000;
+}
