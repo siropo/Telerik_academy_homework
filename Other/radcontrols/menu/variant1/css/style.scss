@@ -1,0 +1,166 @@
+@mixin linear-gradient($from, $to) {
+  
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, $from),color-stop(1, $to));
+  background-image: -webkit-linear-gradient(top, $from, $to);
+  background-image: -moz-linear-gradient(top, $from, $to);
+  background-image: -ms-linear-gradient(top, $from, $to);
+  background-image: -o-linear-gradient(top, $from, $to);
+  background-image: linear-gradient(top, bottom, $from, $to);
+
+}
+
+$color1: #2f2f2f;
+$color2: #151313;
+$color3: #f03131;
+$color4: #fff;
+$font-color: #fff;
+$hover-link: #f03131;
+@mixin font-size {
+  font: bold 1.3em Arial, Helvetica, sans-serif;;
+}
+
+/*************************************************************  
+Reset                                                                                       
+************************************************************/
+html, body, div, span, a, ul, li {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  background: transparent;
+  margin: 0;
+  padding: 0; }
+
+ol, ul {
+  list-style: none; }
+
+img {
+  border: none; }
+
+a {
+  color: #000;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+/*************************************************************  
+Globals                                                                                         
+************************************************************/
+body {
+  background: #fff;
+  font: normal normal 62.5% Verdana, helvetica, sans-serif;
+  line-height: 1;
+  color: #000; }
+
+/*************************************************************  
+menu widget                                                                     
+************************************************************/
+#wrap {
+  width: 800px;
+  margin: 30px auto; }
+
+#widget-menu {
+    position: relative;
+    padding: 3px 0;
+    background-color: $color1;
+    @include linear-gradient($color1, $color2);
+    border-bottom: 1px solid #f03131;
+    z-index: 1;
+    a {
+      @include font-size;
+      color: $font-color;
+      &:hover {
+        color: $color3;
+      }
+    }
+    & > li {
+        position: relative;
+        a {
+          display: block;
+          padding: 10px 20px;
+        }
+    }
+
+    & li {
+       &:hover {
+        color: $hover-link;
+        background: $color2;
+      }
+    }
+
+    .submenu {
+        display: none;
+    }  
+
+    .selected {
+        display: block;
+    }
+
+    .arrow-down {
+      background: url("../img/arrow-down.png") no-repeat;
+      background-position: right;
+    }
+
+    .arrow-right {
+      background: url("../img/arrow-right.png") no-repeat;
+      background-position: right;
+    }
+
+    .active {
+        background: $color2;
+    }
+
+}
+
+#widget-menu.widget-horizontal {
+    & > li {
+        float: left;
+    }
+    .level1 {
+      position: absolute;
+      top: 36px;
+      background: $color2;
+      z-index: 2;
+      li {
+          width: 200px; 
+          a {
+            display: block;
+            padding: 5px 15px;
+            margin-right: 5px;
+          }
+      }
+    }
+    .submenu .level2 {
+        position: absolute;
+        top: 8px;
+        left: 200px;
+        background: $color2;
+    }
+}
+
+#widget-menu.widget-horizontal:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    zoom: 1; 
+}
+
+#widget-menu.widget-vertical {
+  margin-left: 10px;
+  padding: 5px 10px;
+  .submenu li {
+    margin-left: 20px;
+  }
+    .arrow-down {
+      background-position: left;
+    }
+
+    .arrow-right {
+      background: url("../img/arrow-down.png") no-repeat;
+      background-position: left;
+    }
+}
+
+

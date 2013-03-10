@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Widget menu v1</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Viktor Ivanov" />
+		<meta name="description" content="description"/>
+		<meta name="keywords" content="keywords" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/media_querys.css" type="text/css" media="screen" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<!--[if lte IE 7]>
+			<link rel="stylesheet" href="css/ie_7.css" type="text/css" media="screen" />
+		<![endif]-->
+		<!--[if lte IE 6]>
+			<link rel="stylesheet" href="css/ie_6.css" type="text/css" media="screen" />
+		<![endif]-->
+	</head>
+	<body>
+	<div id="wrap">
+		<ul id="widget-menu">
+			<li><a href="http://google.com">Home</a></li>
+			<li><a href="#">Articles</a>
+				<ul>
+					<li><a href="http://music.com">Sport</a></li>
+					<li><a href="http://news.com">News</a></li>
+					<li><a href="http://gallery.com">Gallery</a></li>
+				</ul>
+			</li>
+			<li><a href="http://google.com">Sport News</a></li>
+			<li><a href="#">Movies</a>
+				<ul>
+					<li><a href="#">Crime</a>
+						<ul>
+							<li><a href="http://test1.com">Carlito's Way </a></li>
+							<li><a href="http://test2.com">Donnie Brasco  </a></li>
+							<li><a href="http://test3.com">The Big Sleep   </a></li>
+						</ul>
+					</li>
+					<li><a href="http://test4.com">Action</a>
+					<li><a href="http://test5.com">Comedy</a>
+					<li><a href="http://test6.com">Thriller</a>
+				</ul>
+			</li>
+			<li><a href="http://test7.com">Contact</a>
+		</ul>
+	</div>
+	<script src="js/widget-menu.js"></script>		
+	<script>
+	/*
+		Menu Class
+		function Menu(menuType, levels); 
+		------------------------------------------------------------------------------------------------------
+
+		@constructor 
+		@param {String} menuType - can be horizontal or vertical
+		@param {Intiger} levels - levels can be deep to 2 
+		------------------------------------------------------------------------------------------------------
+
+		.checkWindowWidth()
+		Check window width on device and set menuType automatic to vertical for small resolutions.
+		------------------------------------------------------------------------------------------------------
+
+		.attachHeandler() 
+
+		Attach click event to open and close submenu. 
+		------------------------------------------------------------------------------------------------------
+
+		.checkUrl()
+		Add css classes for open and close submenus on links that have href="#". 
+		Add css classes for submenus.
+		------------------------------------------------------------------------------------------------------
+	*/
+	(function() {
+		var mainMenu = new Menu("horizontal", 2);
+	})();
+	</script>
+	</body>
+</html>

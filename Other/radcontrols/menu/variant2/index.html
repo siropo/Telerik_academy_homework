@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Widget menu v2</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Viktor Ivanov" />
+		<meta name="description" content="description"/>
+		<meta name="keywords" content="keywords" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/media_querys.css" type="text/css" media="screen" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<!--[if lte IE 7]>
+			<link rel="stylesheet" href="css/ie_7.css" type="text/css" media="screen" />
+		<![endif]-->
+		<!--[if lte IE 6]>
+			<link rel="stylesheet" href="css/ie_6.css" type="text/css" media="screen" />
+		<![endif]-->
+	</head>
+	<body>
+
+	<div id="wrap"> 
+		<ul id="widget-menu">
+
+		</ul>
+	</div>
+	<script src="js/widget-menu.js"></script>
+	<script src="js/menu-items.json"></script>			
+	<script>
+	/*
+		Menu Class
+		function Menu(menuType, levels, menuItems); 
+		------------------------------------------------------------------------------------------------------
+
+		@constructor 
+		@param {String} menuType - can be horizontal or vertical
+		@param {Intiger} levels - levels can be deep to 2 
+		@param {JSON} menuItems - takes JSON object with menu items
+		------------------------------------------------------------------------------------------------------
+
+		.checkWindowWidth()
+		Check window width on device and set menuType automatic to vertical for small resolutions.
+		------------------------------------------------------------------------------------------------------
+
+		.draw(menuItems)
+		@param {JSON} - menuItems
+
+		Draw all JSON data and create menu. Max deep of nested submenu can be 2.
+		------------------------------------------------------------------------------------------------------
+
+		.attachHeandler() 
+
+		Attach click event to open and close submenu. 
+		------------------------------------------------------------------------------------------------------
+
+		.checkUrl()
+		Return css classes for open and close submenus on links that have href="#". 
+		------------------------------------------------------------------------------------------------------
+	*/
+	(function() {
+		var mainMenu = new Menu("horizontal", JSONMenuItems, 2);
+	})();
+	</script>
+	</body>
+</html>

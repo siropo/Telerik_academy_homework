@@ -1,0 +1,99 @@
+/*************************************************************	
+Reset  																						
+************************************************************/
+html, body, div, span, p, a, ol, ul, li {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  background: transparent;
+  margin: 0;
+  padding: 0; }
+
+ol, ul {
+  list-style: none; }
+
+img {
+  border: none; }
+
+a {
+  color: #000;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+/*************************************************************  
+Globals                                                                                         
+************************************************************/
+body {
+  background: #fff;
+  font: normal normal 62.5% Verdana, helvetica, sans-serif;
+  line-height: 1;
+  color: #000; }
+
+/*************************************************************	
+Custom  																						
+************************************************************/
+.clear:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  zoom: 1; }
+
+/*************************************************************	
+tree view																		
+************************************************************/
+#main-navi {
+  margin: 10px 50px;
+  padding: 20px;
+  width: 300px;
+  background: #fff; }
+  #main-navi li {
+    position: relative;
+    padding: 2px; }
+    #main-navi li .menu-item {
+      padding: 1px 0;
+      height: 16px;
+      display: block; }
+      #main-navi li .menu-item .plus-icon-open, #main-navi li .menu-item .plus-icon-close {
+        position: absolute;
+        left: -14px;
+        width: 14px;
+        height: 16px;
+        background: url(../img/sprite-icons.png) no-repeat;
+        display: block;
+        float: left;
+        cursor: pointer; }
+      #main-navi li .menu-item .plus-icon-close {
+        background-position: 0px -21px; }
+      #main-navi li .menu-item .folder-icon-close, #main-navi li .menu-item .folder-icon-open, #main-navi li .menu-item .file-icon {
+        margin-left: 3px;
+        width: 16px;
+        height: 16px;
+        background: url(../img/sprite-icons.png) no-repeat;
+        background-position: 0px -63px;
+        border: none;
+        float: left; }
+      #main-navi li .menu-item .folder-icon-open {
+        background-position: 0px -84px; }
+      #main-navi li .menu-item .file-icon {
+        background-position: 0px -42px; }
+      #main-navi li .menu-item .menu-text {
+        margin-top: 2px;
+        margin-left: 5px;
+        display: block;
+        float: left;
+        cursor: pointer; }
+    #main-navi li a {
+      border: 1px solid white; }
+    #main-navi li a:hover {
+      border: 1px solid #b9daff;
+      background: #eaf4ff; }
+    #main-navi li a:hover {
+      /* IE6 needs this to show the hover effect */
+      visibility: visible; }
+  #main-navi .sub-menu {
+    display: block;
+    margin-left: 15px; }

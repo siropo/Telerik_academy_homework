@@ -1,0 +1,52 @@
+var JSONMenuItems = [
+		{
+			itemText: "Home",
+			url: "http://google.com"
+		},
+		{
+			itemText: "Articles",
+			url: "#",
+			submenu:
+			[{
+				itemText: "Sport",
+				url: "http://Sport.com"
+			},
+			{
+				itemText: "News",
+				url: "http://news.com"
+			}, 
+			{
+				itemText: "Music",
+				url: "http://Music.com"
+			}]
+		},
+		{
+			itemText: "Sport",
+			url: "http://google.com"
+		},
+		{
+			itemText: "News",
+			url: "#",
+			submenu:
+				[{
+					itemText: "News 1",
+					url: "#",
+					submenu: 
+					[{
+						itemText: "Sport news",
+						url: "http://kuku.com"
+					}, 
+					{
+						itemText: "Music news",
+						url: "http://kuku.com"
+					}]
+				},
+				{
+					itemText: "Classic",
+					url: "http://google.com"
+				},
+				{
+					itemText: "Modern",
+					url: "http://google.com"
+				}] 
+		}]

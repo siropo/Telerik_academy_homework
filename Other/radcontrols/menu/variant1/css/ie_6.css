@@ -1,0 +1,17 @@
+*html #widget-menu li { 
+	float:left; 
+}
+
+*html #widget-menu li a { 
+	display: block;
+	line-height: 16px;
+	_padding: 8px 16px;
+}
+
+*html #widget-menu li ul { 
+	width: 200px;
+}
+
+*html #widget-menu li:hover { 
+	background: #000;
+}

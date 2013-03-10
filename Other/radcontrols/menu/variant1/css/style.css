@@ -1,0 +1,115 @@
+/*************************************************************  
+Reset                                                                                       
+************************************************************/
+html, body, div, span, a, ul, li {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  background: transparent;
+  margin: 0;
+  padding: 0; }
+
+ol, ul {
+  list-style: none; }
+
+img {
+  border: none; }
+
+a {
+  color: #000;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+/*************************************************************  
+Globals                                                                                         
+************************************************************/
+body {
+  background: #fff;
+  font: normal normal 62.5% Verdana, helvetica, sans-serif;
+  line-height: 1;
+  color: #000; }
+
+/*************************************************************  
+menu widget                                                                     
+************************************************************/
+#wrap {
+  width: 800px;
+  margin: 30px auto; }
+
+#widget-menu {
+  position: relative;
+  padding: 3px 0;
+  background-color: #2f2f2f;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2f2f2f), color-stop(1, #151313));
+  background-image: -webkit-linear-gradient(top, #2f2f2f, #151313);
+  background-image: -moz-linear-gradient(top, #2f2f2f, #151313);
+  background-image: -ms-linear-gradient(top, #2f2f2f, #151313);
+  background-image: -o-linear-gradient(top, #2f2f2f, #151313);
+  background-image: linear-gradient(top, bottom, #2f2f2f, #151313);
+  border-bottom: 1px solid #f03131;
+  z-index: 1; }
+  #widget-menu a {
+    font: bold 1.3em Arial, Helvetica, sans-serif;
+    color: white; }
+    #widget-menu a:hover {
+      color: #f03131; }
+  #widget-menu > li {
+    position: relative; }
+    #widget-menu > li a {
+      display: block;
+      padding: 10px 20px; }
+  #widget-menu li:hover {
+    color: #f03131;
+    background: #151313; }
+  #widget-menu .submenu {
+    display: none; }
+  #widget-menu .selected {
+    display: block; }
+  #widget-menu .arrow-down {
+    background: url("../img/arrow-down.png") no-repeat;
+    background-position: right; }
+  #widget-menu .arrow-right {
+    background: url("../img/arrow-right.png") no-repeat;
+    background-position: right; }
+  #widget-menu .active {
+    background: #151313; }
+
+#widget-menu.widget-horizontal > li {
+  float: left; }
+#widget-menu.widget-horizontal .level1 {
+  position: absolute;
+  top: 36px;
+  background: #151313;
+  z-index: 2; }
+  #widget-menu.widget-horizontal .level1 li {
+    width: 200px; }
+    #widget-menu.widget-horizontal .level1 li a {
+      display: block;
+      padding: 5px 15px;
+      margin-right: 5px; }
+#widget-menu.widget-horizontal .submenu .level2 {
+  position: absolute;
+  top: 8px;
+  left: 200px;
+  background: #151313; }
+
+#widget-menu.widget-horizontal:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  zoom: 1; }
+
+#widget-menu.widget-vertical {
+  margin-left: 10px;
+  padding: 5px 10px; }
+  #widget-menu.widget-vertical .submenu li {
+    margin-left: 20px; }
+  #widget-menu.widget-vertical .arrow-down {
+    background-position: left; }
+  #widget-menu.widget-vertical .arrow-right {
+    background: url("../img/arrow-down.png") no-repeat;
+    background-position: left; }
