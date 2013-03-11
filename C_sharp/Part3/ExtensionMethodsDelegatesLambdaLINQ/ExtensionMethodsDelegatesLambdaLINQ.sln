@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Extend StringBuilder", "01. Extend StringBuilder\01. Extend StringBuilder.csproj", "{BBCB07CD-1451-430D-B926-6A34FD665AEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. IEnumerableExtends", "02. IEnumerableExtends\02. IEnumerableExtends.csproj", "{A679F8DC-8387-423A-B252-7B1B291E8AEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. StudentSortLINQ", "03. StudentSortLINQ\03. StudentSortLINQ.csproj", "{268A85C9-3C1B-4682-8BD0-C6043BC7AADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. FindAge", "04. FindAge\04. FindAge.csproj", "{C1E91496-BA3F-4914-AC0C-0F3361599190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. OrderByLINQ", "05. OrderByLINQ\05. OrderByLINQ.csproj", "{A785B802-B619-4011-9979-946E901BA4E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. OrderByThenByLambda", "06. ThenBy\06. OrderByThenByLambda.csproj", "{6076AA60-6409-41F6-9DDF-2E746F0D9472}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. DelegateTimer", "07. DelegateTimer\07. DelegateTimer.csproj", "{F14D00EA-FEC1-4B6D-8464-5CEBFACF42CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBCB07CD-1451-430D-B926-6A34FD665AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBCB07CD-1451-430D-B926-6A34FD665AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBCB07CD-1451-430D-B926-6A34FD665AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBCB07CD-1451-430D-B926-6A34FD665AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A679F8DC-8387-423A-B252-7B1B291E8AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A679F8DC-8387-423A-B252-7B1B291E8AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A679F8DC-8387-423A-B252-7B1B291E8AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A679F8DC-8387-423A-B252-7B1B291E8AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{268A85C9-3C1B-4682-8BD0-C6043BC7AADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{268A85C9-3C1B-4682-8BD0-C6043BC7AADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{268A85C9-3C1B-4682-8BD0-C6043BC7AADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{268A85C9-3C1B-4682-8BD0-C6043BC7AADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1E91496-BA3F-4914-AC0C-0F3361599190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E91496-BA3F-4914-AC0C-0F3361599190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E91496-BA3F-4914-AC0C-0F3361599190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E91496-BA3F-4914-AC0C-0F3361599190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A785B802-B619-4011-9979-946E901BA4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A785B802-B619-4011-9979-946E901BA4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A785B802-B619-4011-9979-946E901BA4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A785B802-B619-4011-9979-946E901BA4E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6076AA60-6409-41F6-9DDF-2E746F0D9472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6076AA60-6409-41F6-9DDF-2E746F0D9472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6076AA60-6409-41F6-9DDF-2E746F0D9472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6076AA60-6409-41F6-9DDF-2E746F0D9472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14D00EA-FEC1-4B6D-8464-5CEBFACF42CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14D00EA-FEC1-4B6D-8464-5CEBFACF42CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14D00EA-FEC1-4B6D-8464-5CEBFACF42CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14D00EA-FEC1-4B6D-8464-5CEBFACF42CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
