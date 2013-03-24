@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _02.People
+namespace _01.StudentTask
 {
-    class Program
+    public enum Faculties
     {
-        static void Main(string[] args)
-        {
-        }
+        EPU,
+        FMI,
+        FNU
     }
 }
